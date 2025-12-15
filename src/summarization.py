@@ -2,8 +2,8 @@ import torch
 from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
 import logging
 import os
-from utils import get_device
-from preprocessing import RecursiveTokenChunker
+from src.utils import get_device
+from src.preprocessing import RecursiveTokenChunker
 
 logger = logging.getLogger(__name__)
 
