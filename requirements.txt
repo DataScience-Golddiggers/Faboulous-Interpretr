@@ -9,3 +9,7 @@ pandas
 plotly
 pyyaml
 emoji
+datasets
+evaluate
+rouge_score
+tabulate

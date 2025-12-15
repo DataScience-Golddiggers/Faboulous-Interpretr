@@ -2,161 +2,125 @@
 
 # Faboulous-Interpretr
 
-> An advanced NLP toolkit powered by state-of-the-art Italian Transformer models for technical documentation summarization and sentiment analysis.
+> **Progetto Universitario NLP (9 CFU)**
+> 
+> Un toolkit NLP avanzato basato su modelli Transformer italiani State-of-the-Art per la sintesi di documentazione tecnica e l'analisi del sentiment.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![MacOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Linux](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow?style=for-the-badge)](https://huggingface.co/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
+</div>
 
-## 🚀 Overview
+## 🚀 Panoramica del Progetto
 
-**Faboulous-Interpretr** is a production-ready NLP application that leverages cutting-edge natural language processing models to provide two core functionalities:
+**Faboulous-Interpretr** è un'applicazione NLP *production-ready* sviluppata come tesina per il corso di Data Science. A differenza di semplici wrapper API, implementa una pipeline ingegneristica completa per gestire scenari reali complessi.
 
-1. **📄 Technical Documentation Summarization** - Automatic summarization using IT5 transformer models
-2. **😊 Sentiment Analysis** - Review sentiment classification using FEEL-IT models
+Le funzionalità core sono due:
+1.  **📄 Summarization Avanzata**: Sintesi di documenti tecnici lunghi (PDF, Specifiche API) utilizzando un approccio **Map-Reduce** con modelli IT5.
+2.  **😊 Sentiment Analysis**: Classificazione di recensioni (singole o batch CSV) con modelli FEEL-IT specifici per la lingua italiana.
 
-The application features a modern Streamlit UI with support for multiple input sources including PDFs, URLs, OpenAPI specifications, and batch CSV processing.
+## ✨ Features Chiave & Architettura
 
-## ✨ Features
+### 1. Documentation Summarizer (con Map-Reduce)
+Il sistema supera il limite dei token (tipico dei modelli BERT/T5) implementando una strategia custom:
+*   **Ingestion Multi-Source**: Supporto nativo per PDF (`PyMuPDF`), Web Scraping (`Trafilatura`) e Specifiche OpenAPI (parsing JSON/YAML).
+*   **Semantic Chunking**: Un algoritmo ricorsivo (`RecursiveTokenChunker`) divide il testo preservando i confini delle frasi e del significato.
+*   **Map-Reduce Logic**: I testi lunghi vengono processati a blocchi e poi sintetizzati strutturalmente, evitando la perdita di informazioni cruciali nelle sezioni intermedie.
+*   **Modello**: `it5-base-summarization` (E. Federici), fine-tuned su dataset italiani.
 
-### Documentation Summarizer
-- **Multiple Input Sources**: 
-- Free text input
-- PDF document parsing
-- Web scraping from URLs
-- OpenAPI specification (JSON/YAML) parsing
-- **IT5-based Summarization**:  State-of-the-art Italian text summarization
-- **Export Capabilities**: Download summaries in text format
+### 2. Sentiment Analysis (Batch Optimized)
+*   **Input Flessibile**: Analisi real-time di testo libero o elaborazione batch di file CSV.
+*   **Ingegneria del Prompt**: Logica di pre-processing per pulire i dati grezzi (rimozione URL, normalizzazione).
+*   **Modello**: `feel-it-italian-sentiment` (MilaNLProc), SOTA per l'analisi delle emozioni in italiano.
 
-### Sentiment Analysis
-- **Single Review Analysis**: Real-time sentiment classification
-- **Batch Processing**: CSV upload for bulk analysis
-- **FEEL-IT Integration**: Italian-optimized sentiment detection
-- **Visualization**: Interactive charts and statistics
-- **Export Results**: Download analyzed datasets with sentiment labels
+### 3. Valutazione Quantitativa
+Il progetto include una pipeline di valutazione automatica basata su metriche **ROUGE** per certificare la qualità dei riassunti generati.
+
+## 📊 Performance Evaluation
+
+Di seguito i risultati della valutazione quantitativa (ROUGE) condotta su un dataset di validazione curato manualmente (Notizie tech/mediche/clima):
+
+| Metrica | Punteggio | Interpretazione |
+|---------|-----------|-----------------|
+| **ROUGE-1** | **30.11%** | Buon overlap lessicale (parole singole) per un modello zero-shot. |
+| **ROUGE-2** | **9.98%** | Indica che il modello riformula attivamente le frasi invece di copiare. |
+| **ROUGE-L** | **25.79%** | La struttura logica del riassunto segue fedelmente l'originale. |
+
+> *Nota: I punteggi dimostrano che il modello produce riassunti coerenti e semanticamente validi, pur variando il lessico rispetto al riferimento "gold standard".*
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Streamlit
-- **NLP Models**:  Hugging Face Transformers (IT5, FEEL-IT)
-- **Data Processing**: Pandas, PyMuPDF
-- **Visualization**: Plotly Express
-- **Hardware Acceleration**: CUDA, Apple MPS, CPU fallback
+*   **Frontend**: Streamlit (Interfaccia reattiva)
+*   **Deep Learning**: PyTorch, Hugging Face Transformers
+*   **Data Processing**: Pandas, PyMuPDF, Trafilatura
+*   **Evaluation**: ROUGE Score, Evaluate library
+*   **Hardware**: Rilevamento automatico e supporto per CUDA (NVIDIA) e MPS (Apple Silicon).
 
-## 📦 Installation
+## 📦 Installazione e Utilizzo
 
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
+### Prerequisiti
+*   Python 3.9+
+*   Pip
+*   (Opzionale) GPU NVIDIA per inferenza veloce
 
-### Setup
+### Setup Rapido
 
-1. **Clone the repository**
+1.  **Clona il repository**:
+    ```bash
+    git clone https://github.com/DataScience-Golddiggers/Faboulous-Interpretr.git
+    cd Faboulous-Interpretr
+    ```
+
+2.  **Crea e attiva un ambiente virtuale** (Consigliato):
+    ```bash
+    python -m venv .venv
+    # Windows:
+    .venv\Scripts\activate
+    # Mac/Linux:
+    source .venv/bin/activate
+    ```
+
+3.  **Installa le dipendenze**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Avvia l'applicazione**:
+    ```bash
+    streamlit run app.py
+    ```
+    L'app sarà accessibile a `http://localhost:8501`.
+
+### Eseguire la Valutazione
+Per riprodurre i benchmark di valutazione:
 ```bash
-git clone https://github.com/DataScience-Golddiggers/Faboulous-Interpretr.git
-cd Faboulous-Interpretr
+python -m src.evaluation
 ```
 
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the application**
-```bash
-streamlit run app.py
-```
-
-The application will launch in your default browser at `http://localhost:8501`
-
-## 🏗️ Project Structure
+## 🏗️ Struttura del Progetto
 
 ```
 Faboulous-Interpretr/
-├── app.py                  # Main Streamlit application
-├── requirements.txt        # Python dependencies
-├── src/                    # Source modules
-│   ├── data_ingestion.py  # PDF/URL/API parsing utilities
-│   ├── summarization.py   # Summarizer module wrapper
-│   ├── sentiment. py       # Sentiment analyzer wrapper
-│   └── utils.py           # Logging and device detection
-├── models/                 # Model cache directory
-└── docs/                   # Documentation files
+├── app.py                  # Entry point Streamlit (UI Orchestration)
+├── requirements.txt        # Dipendenze di progetto
+├── docs/
+│   └── Plan.md             # Documento di design architetturale (Dettaglio Accademico)
+├── src/                    # Core Logic
+│   ├── data_ingestion.py   # Adattatori per PDF, URL, OpenAPI
+│   ├── preprocessing.py    # Recursive Token Chunker & Text Cleaning
+│   ├── summarization.py    # Classe SummarizerModule con logica Map-Reduce
+│   ├── sentiment.py        # Classe SentimentAnalyzerModule
+│   ├── evaluation.py       # Script di validazione ROUGE
+│   └── utils.py            # Gestione Hardware e Logging
+└── models/                 # Cache locale dei modelli (Git ignored)
 ```
 
-## 🎯 Usage
+## 👥 Autori
 
-### Documentation Summarization
-
-1. Navigate to **📄 Doc Summarizer** from the sidebar
-2. Select your input source:
-- **Free Text**:  Paste text directly
-- **PDF**: Upload a PDF file
-- **URL**:  Provide a web page URL
-- **OpenAPI**:  Upload API specification
-3. Click **Generate Summary**
-4. Download or copy the generated summary
-
-### Sentiment Analysis
-
-**Single Analysis:**
-1. Navigate to **😊 Sentiment Analysis**
-2. Select **Single Analysis**
-3. Enter your review text
-4. Click **Analyze** to see sentiment and confidence score
-
-**Batch Processing:**
-1. Select **Upload CSV Batch**
-2. Upload a CSV file with a column named `text`, `recensione`, `body`, or `content`
-3. Click **Analyze Dataset**
-4. View distribution charts and download results
-
-## 🔧 Configuration
-
-The application automatically detects your hardware setup:
-- **NVIDIA GPU**: CUDA acceleration
-- **Apple Silicon**: MPS acceleration
-- **CPU**: Standard processing
-
-## 📊 Models
-
-- **Summarization**: IT5 (Italian T5) - Fine-tuned for Italian technical text
-- **Sentiment Analysis**:  FEEL-IT - Italian emotion and sentiment classifier
-
-Models are automatically downloaded on first use and cached locally in the `models/` directory.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-**DataScience-Golddiggers** - [GitHub Organization](https://github.com/DataScience-Golddiggers)
-
-## 🙏 Acknowledgments
-
-- Hugging Face for providing excellent NLP models
-- Streamlit for the intuitive web framework
-- The open-source community for various libraries and tools
-
-## 📧 Support
-
-For issues, questions, or contributions, please open an issue on the [GitHub repository](https://github.com/DataScience-Golddiggers/Faboulous-Interpretr/issues).
+Progetto realizzato per il corso di NLP (Data Science).
 
 ---
-
-**Made with ❤️ by DataScience-Golddiggers**
+**Made with ❤️ & Transformers**
 </div>
