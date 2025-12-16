@@ -13,3 +13,6 @@ datasets
 evaluate
 rouge_score
 tabulate
+peft
+accelerate
+scikit-learn

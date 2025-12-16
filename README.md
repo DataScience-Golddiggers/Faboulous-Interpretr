@@ -93,6 +93,11 @@ Di seguito i risultati della valutazione quantitativa (ROUGE) condotta su un dat
     ```
     L'app sarà accessibile a `http://localhost:8501`.
 
+5.  **RoBERTa LoRA Finetuning**
+    ```bash
+    python .\src\train_sentiment.py --data_path "data\raw\mrev.csv" --text_col "review_text" --label_col "sentiment" --epochs 5
+    ```
+
 ### Eseguire la Valutazione
 Per riprodurre i benchmark di valutazione:
 ```bash
