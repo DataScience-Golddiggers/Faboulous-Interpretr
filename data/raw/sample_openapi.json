@@ -1,0 +1,67 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Smart Library API",
+    "description": "API per la gestione automatizzata di una biblioteca comunale moderna. Permette di gestire prestiti, catalogazione libri e utenti.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/books": {
+      "get": {
+        "summary": "Lista tutti i libri",
+        "description": "Recupera una lista paginata di libri disponibili nel catalogo. Supporta filtri per autore e genere.",
+        "responses": {
+          "200": {
+            "description": "Lista recuperata con successo"
+          }
+        }
+      },
+      "post": {
+        "summary": "Aggiungi un nuovo libro",
+        "description": "Aggiunge un nuovo titolo al catalogo. Richiede privilegi di amministratore.",
+        "responses": {
+          "201": {
+            "description": "Libro creato"
+          }
+        }
+      }
+    },
+    "/books/{bookId}": {
+      "get": {
+        "summary": "Dettagli libro",
+        "description": "Restituisce i dettagli completi di un singolo libro tramite ID, inclusa la posizione sullo scaffale.",
+        "responses": {
+          "200": {
+            "description": "Dettagli libro"
+          },
+          "404": {
+            "description": "Libro non trovato"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Rimuovi libro",
+        "description": "Rimuove permanentemente un libro dal catalogo (es. smarrito o danneggiato).",
+        "responses": {
+          "204": {
+            "description": "Libro eliminato"
+          }
+        }
+      }
+    },
+    "/users/{userId}/loans": {
+      "post": {
+        "summary": "Registra prestito",
+        "description": "Crea un nuovo record di prestito per un utente specifico. Verifica automaticamente se l'utente ha multe pendenti.",
+        "responses": {
+          "200": {
+            "description": "Prestito registrato"
+          },
+          "403": {
+            "description": "Prestito negato (multe pendenti o limite raggiunto)"
+          }
+        }
+      }
+    }
+  }
+}

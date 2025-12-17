@@ -1,0 +1,47 @@
+INTRODUZIONE AL MACHINE LEARNING MODERNO
+
+Il Machine Learning (ML) è una branca dell'intelligenza artificiale che si occupa di creare sistemi che apprendono o migliorano le performance in base ai dati che utilizzano.
+A differenza del software tradizionale, dove le regole sono programmate esplicitamente, nel ML le regole sono inferite dai dati.
+
+1. APPRENDIMENTO SUPERVISIONATO
+L'apprendimento supervisionato è il tipo più comune di ML. In questo paradigma, l'algoritmo viene addestrato su un dataset etichettato, ovvero un dataset in cui per ogni input è nota la risposta corretta (output desiderato).
+L'obiettivo è imparare una funzione che mappa gli input agli output in modo da poter predire l'output per nuovi input mai visti prima.
+Esempi classici includono la classificazione delle email in "spam" o "non spam", la diagnosi medica basata su immagini, e la previsione dei prezzi delle case.
+
+Algoritmi comuni in questa categoria includono:
+- Regressione Lineare e Logistica
+- Support Vector Machines (SVM)
+- Alberi Decisionali e Random Forest
+- Reti Neurali Artificiali
+
+2. APPRENDIMENTO NON SUPERVISIONATO
+Nell'apprendimento non supervisionato, il dataset non ha etichette. L'algoritmo deve trovare strutture o pattern nascosti nei dati senza alcuna guida esterna.
+Questo è utile per scoprire raggruppamenti naturali nei dati (clustering) o per ridurre la complessità dei dati (riduzione della dimensionalità).
+Un esempio tipico è la segmentazione della clientela nel marketing: l'algoritmo raggruppa i clienti con comportamenti d'acquisto simili senza sapere a priori quali siano questi gruppi.
+
+Tecniche principali:
+- K-Means Clustering
+- Principal Component Analysis (PCA)
+- Autoencoders
+
+3. DEEP LEARNING E RETI NEURALI
+Il Deep Learning è una sottocategoria del ML che utilizza reti neurali profonde (con molti strati nascosti) per modellare astrazioni complesse dei dati.
+Queste reti sono ispirate vagamente alla struttura del cervello umano.
+Il successo del Deep Learning negli ultimi anni è dovuto a tre fattori principali:
+a) La disponibilità di enormi quantità di dati (Big Data).
+b) L'aumento della potenza di calcolo, specialmente grazie alle GPU (come le NVIDIA RTX o i chip Apple Silicon).
+c) Miglioramenti algoritmici (es. funzioni di attivazione ReLU, ottimizzatori Adam, architetture Transformer).
+
+I Transformer, in particolare, introdotti nel 2017 con il paper "Attention is All You Need", hanno rivoluzionato il campo del Natural Language Processing (NLP).
+Modelli come BERT, GPT e T5 si basano su questa architettura, permettendo di gestire dipendenze a lungo raggio nel testo meglio delle precedenti reti ricorrenti (RNN/LSTM).
+
+4. SFIDE ETICHE E BIAS
+Con la diffusione pervasiva di questi algoritmi, le questioni etiche diventano centrali.
+I modelli di ML possono ereditare o amplificare i bias presenti nei dati di addestramento.
+Se un algoritmo di assunzione viene addestrato su dati storici in cui venivano assunti prevalentemente uomini, l'algoritmo imparerà a penalizzare le donne.
+È fondamentale implementare pratiche di "Fairness-aware Machine Learning" per mitigare questi rischi.
+Inoltre, la "Black Box problem" (la difficoltà di interpretare come una rete neurale profonda arrivi a una decisione) pone sfide legali e di fiducia in settori critici come la medicina o la giustizia.
+
+CONCLUSIONE
+Il campo è in rapida evoluzione. L'ingegnere del futuro dovrà padroneggiare non solo gli aspetti tecnici (Python, PyTorch, TensorFlow), ma anche comprendere le implicazioni sistemiche dell'integrazione di questi modelli in prodotti reali.
+L'ottimizzazione dell'inferenza su hardware eterogeneo (CPU vs GPU vs NPU) sta diventando una competenza chiave per rendere queste tecnologie accessibili e sostenibili energeticamente.

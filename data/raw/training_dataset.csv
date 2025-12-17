@@ -1,0 +1,2001 @@
+question,label
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Genera un numero casuale.,irrelevant
+Come cerco un libro nel catalogo?,biblioteca
+Come faccio a iscrivermi?,iscrizione
+Posso iscrivermi con riserva?,iscrizione
+Come arrivo al campus?,localita
+Chi ha diritto all'alloggio?,alloggi
+Qual è l'email della segreteria studenti?,contatti
+Devo portare il diploma originale?,iscrizione
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Dove si svolgono le lezioni di matematica?,localita
+Qual è il numero della segreteria?,contatti
+Chi è il coordinatore del corso di biologia?,corsi
+I corsi sono a frequenza obbligatoria?,corsi
+Come parlo con un operatore?,contatti
+La sede di architettura è in centro?,localita
+Quali sono gli orari della biblioteca?,biblioteca
+C'è un servizio di foresteria?,alloggi
+Cosa c'è stasera in TV?,irrelevant
+Quando aprono le immatricolazioni?,iscrizione
+Quali sono gli insegnamenti del primo anno?,corsi
+Come faccio domanda per un alloggio?,alloggi
+Quanto dista la luna dalla terra?,irrelevant
+Come rinuncio al posto alloggio?,alloggi
+Qual è il significato della vita?,irrelevant
+C'è una bacheca per gli annunci di affitto?,alloggi
+Quando esce il bando alloggi?,alloggi
+Serve una tessera per la mensa?,mensa
+Posso mandare una PEC?,contatti
+La biblioteca è aperta nel weekend?,biblioteca
+Come si fa il nodo alla cravatta?,irrelevant
+Dove restituisco i libri?,biblioteca
+Qual è il menu di oggi?,mensa
+Posso seguire i corsi online?,corsi
+Gli esami sono scritti o orali?,esami
+Qual è la posizione del laboratorio di chimica?,localita
+C'è un bar nell'università?,mensa
+Chi è il presidente degli Stati Uniti?,irrelevant
+Esiste un rimborso per le tasse?,tasse
+C'è una mappa delle sedi?,localita
+Ci sono appartamenti per studenti disabili?,alloggi
+Quando escono le date degli esami?,esami
+Dove vedo i risultati degli esami?,esami
+Chi sono i Beatles?,irrelevant
+Perché il cielo è blu?,irrelevant
+L'università è accessibile ai disabili?,localita
+Ci sono alternative vegetariane?,mensa
+C'è un corso di ingegneria informatica?,corsi
+Posso dare esami di altri corsi?,esami
+Quali sono gli orari della mensa?,mensa
+Mi dici le scadenze dei pagamenti?,tasse
+Dove ricarico il badge per la mensa?,mensa
+Qual è il tuo colore preferito?,irrelevant
+Come si cura il mal di gola?,irrelevant
+Dove si trovano le residenze universitarie?,alloggi
+Mi indichi la strada per la facoltà?,localita
+C'è una sala silenzio?,biblioteca
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Fai un salto.,irrelevant
+Qual è il piano di studi per economia?,corsi
+Vorrei sapere quanto si paga di tasse.,tasse
+Quali sono le scadenze per le tasse?,tasse
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Gli alloggi sono misti?,alloggi
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Qual è l'importo massimo delle tasse?,tasse
+In che via si trova la segreteria?,localita
+Come mi iscrivo al test di ammissione?,iscrizione
+Posso rifiutare un voto?,esami
+Come finalizzo l'iscrizione?,iscrizione
+Come richiedere la riduzione delle tasse?,tasse
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Ci sono prese per il computer in biblioteca?,biblioteca
+Dove si trova la mensa?,mensa
+Come funziona la procedura di immatricolazione online?,iscrizione
+Ci sono dormitori universitari?,alloggi
+Posso portare il pranzo da casa?,mensa
+Cosa succede se non passo un esame?,esami
+C'è uno sportello fisico?,contatti
+Quali materie si studiano a giurisprudenza?,corsi
+Posso studiare in biblioteca la sera?,biblioteca
+Come raggiungo l'università dalla stazione?,localita
+Quali corsi di laurea offrite?,corsi
+Chi contatto per problemi con la prenotazione?,esami
+Ci sono agevolazioni per l'ISEE?,tasse
+Vorrei informazioni sul corso di lettere.,corsi
+Come funziona la verbalizzazione?,esami
+Dimmi il tuo nome.,irrelevant
+Come contatto l'ufficio orientamento?,contatti
+Qual è il miglior film del 2024?,irrelevant
+Mi serve un idraulico.,irrelevant
+Quanti appelli ci sono all'anno?,esami
+Come prendo un libro in prestito?,biblioteca
+Dove si trova l'università?,localita
+Dove sono le aule di ingegneria?,localita
+Quanto costano le tasse universitarie?,tasse
+C'è un menu per celiaci?,mensa
+Chi ha scoperto l'America?,irrelevant
+Dove cerco casa vicino all'università?,alloggi
+C'è un numero verde?,contatti
+Dove è la biblioteca?,biblioteca
+Come si cambia una ruota?,irrelevant
+Come posso pagare la prima rata?,tasse
+Posso ospitare qualcuno nello studentato?,alloggi
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Ci sono corsi in lingua inglese?,corsi
+Quanto costa un pasto in mensa?,mensa
+Qual è la velocità della luce?,irrelevant
+Qual è l'indirizzo della sede centrale?,localita
+Come mi prenoto a un esame?,esami
+Quando sono gli appelli d'esame?,esami
+Ci sono navette per il campus?,localita
+Che tempo fa oggi?,irrelevant
+Come cancello una prenotazione?,esami
+C'è il salto d'appello?,esami
+Quando scade la terza rata?,tasse
+Posso accedere alle risorse digitali da casa?,biblioteca
+C'è il wifi in biblioteca?,biblioteca
+La segreteria risponde al telefono?,contatti
+La mensa è aperta il sabato?,mensa
+Devo prenotare il posto in biblioteca?,biblioteca
+Qual è la scadenza per l'iscrizione?,iscrizione
+C'è un test d'ingresso?,iscrizione
+C'è un corso di laurea magistrale in fisica?,corsi
+C'è un bando per l'ammissione?,iscrizione
+Posso iscrivermi part-time?,iscrizione
+Dove posso parcheggiare vicino all'università?,localita
+Posso prendere un appuntamento con la segreteria?,contatti
+Dove trovo i contatti dei professori?,contatti
+Come rinnovo un prestito?,biblioteca
+A chi scrivo per problemi tecnici?,contatti
+Mi consigli un ristorante cinese?,irrelevant
+Ci sono convenzioni per gli affitti?,alloggi
+Parliamo di politica.,irrelevant
+Dove trovo il calendario degli esami?,esami
+Chi ha vinto lo scudetto?,irrelevant
+Dove posso comprare delle scarpe?,irrelevant
+Posso stampare in biblioteca?,biblioteca
+Il corso di design è a numero chiuso?,corsi
+Dove si trova l'aula magna?,localita
+Quanto costa un biglietto per il cinema?,irrelevant
+Come si pianta un albero?,irrelevant
+Mi consigli una ricetta per la carbonara?,irrelevant
+C'è un'aula studio?,biblioteca
+Devo pagare la tassa regionale?,tasse
+Posso sostenere due esami lo stesso giorno?,esami
+Qual è l'orario di ricevimento?,contatti
+Chi è il referente per la disabilità?,contatti
+A quanto ammonta la seconda rata?,tasse
+Chi chiamo per informazioni amministrative?,contatti
+Dove trovo il bollettino per le tasse?,tasse
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Posso mangiare in mensa la sera?,mensa
+Scrivimi una poesia.,irrelevant
+Raccontami una barzelletta.,irrelevant
+Come si gioca a scacchi?,irrelevant
+Quali sono gli orari di apertura?,contatti
+Chi può accedere alla mensa?,mensa
+Dove sono i distributori automatici?,mensa
+Quali documenti servono per l'iscrizione?,iscrizione
+Mi parli del corso di medicina?,corsi
+Come funziona il corso di laurea triennale?,corsi
+Qual è la capitale della Francia?,irrelevant
+Quanto costa una stanza nello studentato?,alloggi
+Come finalizzo l'iscrizione?,iscrizione
+Quali sono gli orari della mensa?,mensa
+C'è un corso di ingegneria informatica?,corsi
+Come cerco un libro nel catalogo?,biblioteca
+Come rinnovo un prestito?,biblioteca
+A quanto ammonta la seconda rata?,tasse
+Ci sono alternative vegetariane?,mensa
+Qual è il piano di studi per economia?,corsi
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Posso portare il pranzo da casa?,mensa
+Qual è l'orario di ricevimento?,contatti
+Dove restituisco i libri?,biblioteca
+Chi contatto per problemi con la prenotazione?,esami
+Chi sono i Beatles?,irrelevant
+Qual è la scadenza per l'iscrizione?,iscrizione
+Come prendo un libro in prestito?,biblioteca
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Chi chiamo per informazioni amministrative?,contatti
+Chi ha scoperto l'America?,irrelevant
+Chi può accedere alla mensa?,mensa
+C'è un servizio di foresteria?,alloggi
+Quando scade la terza rata?,tasse
+Qual è la velocità della luce?,irrelevant
+Posso prendere un appuntamento con la segreteria?,contatti
+Come faccio domanda per un alloggio?,alloggi
+Dimmi il tuo nome.,irrelevant
+C'è un bar nell'università?,mensa
+Quanto costa un pasto in mensa?,mensa
+Che tempo fa oggi?,irrelevant
+Come parlo con un operatore?,contatti
+Fai un salto.,irrelevant
+C'è una mappa delle sedi?,localita
+C'è una bacheca per gli annunci di affitto?,alloggi
+Quando sono gli appelli d'esame?,esami
+Come funziona la procedura di immatricolazione online?,iscrizione
+Dove si trovano le residenze universitarie?,alloggi
+Ci sono convenzioni per gli affitti?,alloggi
+Come si fa il nodo alla cravatta?,irrelevant
+Dove si trova l'università?,localita
+Ci sono corsi in lingua inglese?,corsi
+Quanto costano le tasse universitarie?,tasse
+L'università è accessibile ai disabili?,localita
+C'è il wifi in biblioteca?,biblioteca
+Qual è il numero della segreteria?,contatti
+Quando escono le date degli esami?,esami
+Qual è il menu di oggi?,mensa
+Chi ha diritto all'alloggio?,alloggi
+Come contatto l'ufficio orientamento?,contatti
+Posso studiare in biblioteca la sera?,biblioteca
+Come rinuncio al posto alloggio?,alloggi
+Come si cura il mal di gola?,irrelevant
+Serve una tessera per la mensa?,mensa
+Come funziona il corso di laurea triennale?,corsi
+Dove sono i distributori automatici?,mensa
+Qual è l'email della segreteria studenti?,contatti
+La mensa è aperta il sabato?,mensa
+Il corso di design è a numero chiuso?,corsi
+Come cancello una prenotazione?,esami
+Ci sono navette per il campus?,localita
+A chi scrivo per problemi tecnici?,contatti
+C'è un test d'ingresso?,iscrizione
+Devo pagare la tassa regionale?,tasse
+Quanto dista la luna dalla terra?,irrelevant
+Dove trovo il calendario degli esami?,esami
+Come funziona la verbalizzazione?,esami
+Qual è l'indirizzo della sede centrale?,localita
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Dove posso comprare delle scarpe?,irrelevant
+Dove si trova la mensa?,mensa
+Chi è il presidente degli Stati Uniti?,irrelevant
+Perché il cielo è blu?,irrelevant
+C'è un numero verde?,contatti
+C'è un bando per l'ammissione?,iscrizione
+Mi serve un idraulico.,irrelevant
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Posso iscrivermi part-time?,iscrizione
+Qual è il tuo colore preferito?,irrelevant
+Dove ricarico il badge per la mensa?,mensa
+Chi è il coordinatore del corso di biologia?,corsi
+Quando esce il bando alloggi?,alloggi
+Posso iscrivermi con riserva?,iscrizione
+Ci sono prese per il computer in biblioteca?,biblioteca
+Quali sono le scadenze per le tasse?,tasse
+Mi dici le scadenze dei pagamenti?,tasse
+Quanto costa una stanza nello studentato?,alloggi
+C'è un'aula studio?,biblioteca
+Parliamo di politica.,irrelevant
+Come accedo alle tariffe agevolate per la mensa?,mensa
+I corsi sono a frequenza obbligatoria?,corsi
+La sede di architettura è in centro?,localita
+Dove vedo i risultati degli esami?,esami
+Come mi iscrivo al test di ammissione?,iscrizione
+Quanti appelli ci sono all'anno?,esami
+Quali sono gli orari della biblioteca?,biblioteca
+Ci sono agevolazioni per l'ISEE?,tasse
+Qual è il significato della vita?,irrelevant
+Come richiedere la riduzione delle tasse?,tasse
+Posso mangiare in mensa la sera?,mensa
+Mi indichi la strada per la facoltà?,localita
+Chi è il referente per la disabilità?,contatti
+Posso mandare una PEC?,contatti
+Vorrei informazioni sul corso di lettere.,corsi
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Come raggiungo l'università dalla stazione?,localita
+Dove trovo il bollettino per le tasse?,tasse
+Mi parli del corso di medicina?,corsi
+Cosa succede se non passo un esame?,esami
+Qual è la posizione del laboratorio di chimica?,localita
+Quando aprono le immatricolazioni?,iscrizione
+Qual è la capitale della Francia?,irrelevant
+Quali sono gli orari di apertura?,contatti
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Dove sono le aule di ingegneria?,localita
+Quanto costa un biglietto per il cinema?,irrelevant
+C'è uno sportello fisico?,contatti
+Dove si svolgono le lezioni di matematica?,localita
+La segreteria risponde al telefono?,contatti
+Dove cerco casa vicino all'università?,alloggi
+Dove trovo i contatti dei professori?,contatti
+Dove posso parcheggiare vicino all'università?,localita
+Raccontami una barzelletta.,irrelevant
+Posso ospitare qualcuno nello studentato?,alloggi
+Qual è il miglior film del 2024?,irrelevant
+C'è una sala silenzio?,biblioteca
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Gli alloggi sono misti?,alloggi
+C'è il salto d'appello?,esami
+Chi ha vinto lo scudetto?,irrelevant
+Qual è l'importo massimo delle tasse?,tasse
+C'è un menu per celiaci?,mensa
+Come posso pagare la prima rata?,tasse
+In che via si trova la segreteria?,localita
+Posso dare esami di altri corsi?,esami
+Come si cambia una ruota?,irrelevant
+Come arrivo al campus?,localita
+Dove si trova l'aula magna?,localita
+Quali materie si studiano a giurisprudenza?,corsi
+Mi consigli un ristorante cinese?,irrelevant
+Quali corsi di laurea offrite?,corsi
+Ci sono dormitori universitari?,alloggi
+Posso rifiutare un voto?,esami
+Cosa c'è stasera in TV?,irrelevant
+La biblioteca è aperta nel weekend?,biblioteca
+Come faccio a iscrivermi?,iscrizione
+Gli esami sono scritti o orali?,esami
+Scrivimi una poesia.,irrelevant
+Esiste un rimborso per le tasse?,tasse
+Posso stampare in biblioteca?,biblioteca
+Quali sono gli insegnamenti del primo anno?,corsi
+Ci sono appartamenti per studenti disabili?,alloggi
+Posso accedere alle risorse digitali da casa?,biblioteca
+Come si gioca a scacchi?,irrelevant
+Genera un numero casuale.,irrelevant
+Mi consigli una ricetta per la carbonara?,irrelevant
+Dove è la biblioteca?,biblioteca
+C'è un corso di laurea magistrale in fisica?,corsi
+Vorrei sapere quanto si paga di tasse.,tasse
+Devo prenotare il posto in biblioteca?,biblioteca
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Posso sostenere due esami lo stesso giorno?,esami
+Come si pianta un albero?,irrelevant
+Quali documenti servono per l'iscrizione?,iscrizione
+Come mi prenoto a un esame?,esami
+Devo portare il diploma originale?,iscrizione
+Posso seguire i corsi online?,corsi
+Posso mandare una PEC?,contatti
+Raccontami una barzelletta.,irrelevant
+C'è un numero verde?,contatti
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Qual è l'importo massimo delle tasse?,tasse
+Ci sono dormitori universitari?,alloggi
+Qual è il menu di oggi?,mensa
+Ci sono convenzioni per gli affitti?,alloggi
+C'è un bar nell'università?,mensa
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+C'è un menu per celiaci?,mensa
+Posso stampare in biblioteca?,biblioteca
+Qual è la capitale della Francia?,irrelevant
+Quali sono gli orari di apertura?,contatti
+Posso iscrivermi con riserva?,iscrizione
+Qual è il miglior film del 2024?,irrelevant
+Come si pianta un albero?,irrelevant
+Qual è il numero della segreteria?,contatti
+Qual è la posizione del laboratorio di chimica?,localita
+Qual è l'email della segreteria studenti?,contatti
+Chi è il presidente degli Stati Uniti?,irrelevant
+Qual è l'orario di ricevimento?,contatti
+Ci sono agevolazioni per l'ISEE?,tasse
+C'è una mappa delle sedi?,localita
+Mi consigli un ristorante cinese?,irrelevant
+Ci sono corsi in lingua inglese?,corsi
+Chi ha diritto all'alloggio?,alloggi
+Qual è l'indirizzo della sede centrale?,localita
+Esiste un rimborso per le tasse?,tasse
+Posso sostenere due esami lo stesso giorno?,esami
+Come mi prenoto a un esame?,esami
+I corsi sono a frequenza obbligatoria?,corsi
+Quanto costano le tasse universitarie?,tasse
+Cosa c'è stasera in TV?,irrelevant
+Dove posso comprare delle scarpe?,irrelevant
+Devo pagare la tassa regionale?,tasse
+Posso iscrivermi part-time?,iscrizione
+A chi scrivo per problemi tecnici?,contatti
+Quando esce il bando alloggi?,alloggi
+Vorrei sapere quanto si paga di tasse.,tasse
+C'è un test d'ingresso?,iscrizione
+C'è una sala silenzio?,biblioteca
+Posso dare esami di altri corsi?,esami
+La segreteria risponde al telefono?,contatti
+Quando aprono le immatricolazioni?,iscrizione
+L'università è accessibile ai disabili?,localita
+Dimmi il tuo nome.,irrelevant
+Come si cambia una ruota?,irrelevant
+Come contatto l'ufficio orientamento?,contatti
+Mi consigli una ricetta per la carbonara?,irrelevant
+Dove restituisco i libri?,biblioteca
+Dove è la biblioteca?,biblioteca
+Dove si trovano le residenze universitarie?,alloggi
+C'è un corso di laurea magistrale in fisica?,corsi
+Quanto dista la luna dalla terra?,irrelevant
+Dove trovo il bollettino per le tasse?,tasse
+Come funziona la procedura di immatricolazione online?,iscrizione
+Mi parli del corso di medicina?,corsi
+Dove trovo il calendario degli esami?,esami
+Qual è il significato della vita?,irrelevant
+C'è un'aula studio?,biblioteca
+C'è uno sportello fisico?,contatti
+Come rinnovo un prestito?,biblioteca
+La sede di architettura è in centro?,localita
+La mensa è aperta il sabato?,mensa
+Dove si svolgono le lezioni di matematica?,localita
+Qual è il piano di studi per economia?,corsi
+Serve una tessera per la mensa?,mensa
+Mi dici le scadenze dei pagamenti?,tasse
+Come si cura il mal di gola?,irrelevant
+Come prendo un libro in prestito?,biblioteca
+Posso accedere alle risorse digitali da casa?,biblioteca
+Quali sono gli insegnamenti del primo anno?,corsi
+Ci sono navette per il campus?,localita
+Chi può accedere alla mensa?,mensa
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Come si gioca a scacchi?,irrelevant
+C'è il salto d'appello?,esami
+Dove cerco casa vicino all'università?,alloggi
+Ci sono appartamenti per studenti disabili?,alloggi
+Quanti appelli ci sono all'anno?,esami
+Parliamo di politica.,irrelevant
+Qual è la velocità della luce?,irrelevant
+Quanto costa un biglietto per il cinema?,irrelevant
+Cosa succede se non passo un esame?,esami
+Dove ricarico il badge per la mensa?,mensa
+Come rinuncio al posto alloggio?,alloggi
+Dove trovo i contatti dei professori?,contatti
+Fai un salto.,irrelevant
+Il corso di design è a numero chiuso?,corsi
+Qual è la scadenza per l'iscrizione?,iscrizione
+Dove si trova la mensa?,mensa
+Chi è il referente per la disabilità?,contatti
+Dove posso parcheggiare vicino all'università?,localita
+Posso studiare in biblioteca la sera?,biblioteca
+Come cancello una prenotazione?,esami
+In che via si trova la segreteria?,localita
+Mi indichi la strada per la facoltà?,localita
+Posso ospitare qualcuno nello studentato?,alloggi
+Dove si trova l'università?,localita
+Devo prenotare il posto in biblioteca?,biblioteca
+Come funziona la verbalizzazione?,esami
+Quando scade la terza rata?,tasse
+Che tempo fa oggi?,irrelevant
+C'è un bando per l'ammissione?,iscrizione
+Posso prendere un appuntamento con la segreteria?,contatti
+Come posso pagare la prima rata?,tasse
+Vorrei informazioni sul corso di lettere.,corsi
+Mi serve un idraulico.,irrelevant
+Posso portare il pranzo da casa?,mensa
+Chi ha vinto lo scudetto?,irrelevant
+Scrivimi una poesia.,irrelevant
+Come parlo con un operatore?,contatti
+La biblioteca è aperta nel weekend?,biblioteca
+Chi è il coordinatore del corso di biologia?,corsi
+Dove sono le aule di ingegneria?,localita
+Ci sono prese per il computer in biblioteca?,biblioteca
+Come richiedere la riduzione delle tasse?,tasse
+Come finalizzo l'iscrizione?,iscrizione
+Posso seguire i corsi online?,corsi
+Perché il cielo è blu?,irrelevant
+Come faccio a iscrivermi?,iscrizione
+Dove vedo i risultati degli esami?,esami
+Chi chiamo per informazioni amministrative?,contatti
+Posso rifiutare un voto?,esami
+Quali corsi di laurea offrite?,corsi
+Quali materie si studiano a giurisprudenza?,corsi
+Genera un numero casuale.,irrelevant
+Come raggiungo l'università dalla stazione?,localita
+C'è una bacheca per gli annunci di affitto?,alloggi
+Chi sono i Beatles?,irrelevant
+Come faccio domanda per un alloggio?,alloggi
+Quanto costa una stanza nello studentato?,alloggi
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Quando sono gli appelli d'esame?,esami
+Come si fa il nodo alla cravatta?,irrelevant
+A quanto ammonta la seconda rata?,tasse
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Quali sono le scadenze per le tasse?,tasse
+Ci sono alternative vegetariane?,mensa
+Gli esami sono scritti o orali?,esami
+Come mi iscrivo al test di ammissione?,iscrizione
+Devo portare il diploma originale?,iscrizione
+Dove si trova l'aula magna?,localita
+Qual è il tuo colore preferito?,irrelevant
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Quali documenti servono per l'iscrizione?,iscrizione
+Quanto costa un pasto in mensa?,mensa
+C'è un servizio di foresteria?,alloggi
+Quali sono gli orari della mensa?,mensa
+Posso mangiare in mensa la sera?,mensa
+Chi contatto per problemi con la prenotazione?,esami
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Dove sono i distributori automatici?,mensa
+Come cerco un libro nel catalogo?,biblioteca
+Quali sono gli orari della biblioteca?,biblioteca
+Come funziona il corso di laurea triennale?,corsi
+C'è un corso di ingegneria informatica?,corsi
+Come arrivo al campus?,localita
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Chi ha scoperto l'America?,irrelevant
+Gli alloggi sono misti?,alloggi
+C'è il wifi in biblioteca?,biblioteca
+Quando escono le date degli esami?,esami
+Quanto costa un pasto in mensa?,mensa
+C'è una bacheca per gli annunci di affitto?,alloggi
+Qual è la velocità della luce?,irrelevant
+Qual è l'orario di ricevimento?,contatti
+Raccontami una barzelletta.,irrelevant
+C'è uno sportello fisico?,contatti
+Chi contatto per problemi con la prenotazione?,esami
+Come finalizzo l'iscrizione?,iscrizione
+Dimmi il tuo nome.,irrelevant
+Come faccio a iscrivermi?,iscrizione
+C'è un servizio di foresteria?,alloggi
+Vorrei informazioni sul corso di lettere.,corsi
+Chi ha diritto all'alloggio?,alloggi
+C'è un corso di ingegneria informatica?,corsi
+Mi dici le scadenze dei pagamenti?,tasse
+Qual è il numero della segreteria?,contatti
+Vorrei sapere quanto si paga di tasse.,tasse
+Chi è il coordinatore del corso di biologia?,corsi
+Qual è l'importo massimo delle tasse?,tasse
+Dove trovo l'elenco dei corsi disponibili?,corsi
+A quanto ammonta la seconda rata?,tasse
+Chi sono i Beatles?,irrelevant
+Dove vedo i risultati degli esami?,esami
+Gli alloggi sono misti?,alloggi
+Come rinnovo un prestito?,biblioteca
+C'è una sala silenzio?,biblioteca
+Qual è la capitale della Francia?,irrelevant
+Come cancello una prenotazione?,esami
+Dove posso comprare delle scarpe?,irrelevant
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Posso rifiutare un voto?,esami
+Ci sono navette per il campus?,localita
+La mensa è aperta il sabato?,mensa
+Come funziona la verbalizzazione?,esami
+Dove trovo i contatti dei professori?,contatti
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Devo portare il diploma originale?,iscrizione
+Ci sono appartamenti per studenti disabili?,alloggi
+La segreteria risponde al telefono?,contatti
+Posso seguire i corsi online?,corsi
+Quali sono gli orari di apertura?,contatti
+Quali materie si studiano a giurisprudenza?,corsi
+Ci sono convenzioni per gli affitti?,alloggi
+Ci sono prese per il computer in biblioteca?,biblioteca
+Serve una tessera per la mensa?,mensa
+Genera un numero casuale.,irrelevant
+Posso sostenere due esami lo stesso giorno?,esami
+Esiste un rimborso per le tasse?,tasse
+C'è un menu per celiaci?,mensa
+Dove sono le aule di ingegneria?,localita
+Come contatto l'ufficio orientamento?,contatti
+Ci sono corsi in lingua inglese?,corsi
+Posso accedere alle risorse digitali da casa?,biblioteca
+Dove si trovano le residenze universitarie?,alloggi
+Scrivimi una poesia.,irrelevant
+Mi indichi la strada per la facoltà?,localita
+Come si gioca a scacchi?,irrelevant
+Qual è la posizione del laboratorio di chimica?,localita
+Posso iscrivermi part-time?,iscrizione
+Dove si svolgono le lezioni di matematica?,localita
+C'è un bando per l'ammissione?,iscrizione
+Posso mandare una PEC?,contatti
+Come si pianta un albero?,irrelevant
+C'è un test d'ingresso?,iscrizione
+Posso mangiare in mensa la sera?,mensa
+Ci sono alternative vegetariane?,mensa
+C'è una mappa delle sedi?,localita
+Devo prenotare il posto in biblioteca?,biblioteca
+C'è un'aula studio?,biblioteca
+Mi consigli un ristorante cinese?,irrelevant
+I corsi sono a frequenza obbligatoria?,corsi
+C'è un bar nell'università?,mensa
+Ci sono agevolazioni per l'ISEE?,tasse
+Quanto costano le tasse universitarie?,tasse
+C'è il wifi in biblioteca?,biblioteca
+Posso stampare in biblioteca?,biblioteca
+Mi consigli una ricetta per la carbonara?,irrelevant
+Quali sono gli orari della mensa?,mensa
+Come raggiungo l'università dalla stazione?,localita
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Quando sono gli appelli d'esame?,esami
+Qual è il significato della vita?,irrelevant
+Dove si trova l'università?,localita
+C'è un numero verde?,contatti
+Dove posso parcheggiare vicino all'università?,localita
+Quali documenti servono per l'iscrizione?,iscrizione
+C'è il salto d'appello?,esami
+Posso studiare in biblioteca la sera?,biblioteca
+Quando aprono le immatricolazioni?,iscrizione
+Dove cerco casa vicino all'università?,alloggi
+Qual è la scadenza per l'iscrizione?,iscrizione
+Quanto costa un biglietto per il cinema?,irrelevant
+Ci sono dormitori universitari?,alloggi
+Posso prendere un appuntamento con la segreteria?,contatti
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Perché il cielo è blu?,irrelevant
+Come posso pagare la prima rata?,tasse
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Dove trovo il bollettino per le tasse?,tasse
+Quando scade la terza rata?,tasse
+Chi è il referente per la disabilità?,contatti
+Dove trovo il calendario degli esami?,esami
+Come richiedere la riduzione delle tasse?,tasse
+Come cerco un libro nel catalogo?,biblioteca
+Dove sono i distributori automatici?,mensa
+Qual è il piano di studi per economia?,corsi
+Cosa c'è stasera in TV?,irrelevant
+Come mi prenoto a un esame?,esami
+Dove ricarico il badge per la mensa?,mensa
+Come si fa il nodo alla cravatta?,irrelevant
+Quando escono le date degli esami?,esami
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Chi ha vinto lo scudetto?,irrelevant
+Posso ospitare qualcuno nello studentato?,alloggi
+Quali sono gli orari della biblioteca?,biblioteca
+Dove si trova l'aula magna?,localita
+Qual è il miglior film del 2024?,irrelevant
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Gli esami sono scritti o orali?,esami
+Come recupero le credenziali per l'iscrizione?,iscrizione
+L'università è accessibile ai disabili?,localita
+La biblioteca è aperta nel weekend?,biblioteca
+Posso dare esami di altri corsi?,esami
+Come rinuncio al posto alloggio?,alloggi
+La sede di architettura è in centro?,localita
+In che via si trova la segreteria?,localita
+Chi è il presidente degli Stati Uniti?,irrelevant
+Chi ha scoperto l'America?,irrelevant
+Come arrivo al campus?,localita
+Il corso di design è a numero chiuso?,corsi
+C'è un corso di laurea magistrale in fisica?,corsi
+Parliamo di politica.,irrelevant
+Qual è l'email della segreteria studenti?,contatti
+Quali sono le scadenze per le tasse?,tasse
+Quanti appelli ci sono all'anno?,esami
+Come mi iscrivo al test di ammissione?,iscrizione
+Qual è il tuo colore preferito?,irrelevant
+Che tempo fa oggi?,irrelevant
+Come prendo un libro in prestito?,biblioteca
+Quando esce il bando alloggi?,alloggi
+Devo pagare la tassa regionale?,tasse
+Mi serve un idraulico.,irrelevant
+Chi chiamo per informazioni amministrative?,contatti
+Quanto dista la luna dalla terra?,irrelevant
+Posso iscrivermi con riserva?,iscrizione
+Quali sono gli insegnamenti del primo anno?,corsi
+Come funziona il corso di laurea triennale?,corsi
+Mi parli del corso di medicina?,corsi
+Come si cambia una ruota?,irrelevant
+Qual è l'indirizzo della sede centrale?,localita
+Chi può accedere alla mensa?,mensa
+Quali corsi di laurea offrite?,corsi
+Dove è la biblioteca?,biblioteca
+Quanto costa una stanza nello studentato?,alloggi
+Fai un salto.,irrelevant
+Come funziona la procedura di immatricolazione online?,iscrizione
+Dove si trova la mensa?,mensa
+Come faccio domanda per un alloggio?,alloggi
+Come parlo con un operatore?,contatti
+Dove restituisco i libri?,biblioteca
+Come si cura il mal di gola?,irrelevant
+Qual è il menu di oggi?,mensa
+Posso portare il pranzo da casa?,mensa
+A chi scrivo per problemi tecnici?,contatti
+Cosa succede se non passo un esame?,esami
+Posso stampare in biblioteca?,biblioteca
+Il corso di design è a numero chiuso?,corsi
+Quali sono le scadenze per le tasse?,tasse
+Quanto costa un biglietto per il cinema?,irrelevant
+Parliamo di politica.,irrelevant
+Dove sono i distributori automatici?,mensa
+Dove trovo il calendario degli esami?,esami
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Qual è l'orario di ricevimento?,contatti
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Quali sono gli orari della mensa?,mensa
+Come finalizzo l'iscrizione?,iscrizione
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Dove è la biblioteca?,biblioteca
+Mi consigli una ricetta per la carbonara?,irrelevant
+Quando escono le date degli esami?,esami
+Posso iscrivermi part-time?,iscrizione
+Dove trovo il bollettino per le tasse?,tasse
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Dove si trova la mensa?,mensa
+Come faccio a iscrivermi?,iscrizione
+Mi serve un idraulico.,irrelevant
+Dove si trova l'università?,localita
+Posso sostenere due esami lo stesso giorno?,esami
+Quanto costa un pasto in mensa?,mensa
+Qual è l'importo massimo delle tasse?,tasse
+C'è un menu per celiaci?,mensa
+Vorrei sapere quanto si paga di tasse.,tasse
+Quali sono gli insegnamenti del primo anno?,corsi
+Quando aprono le immatricolazioni?,iscrizione
+Qual è il miglior film del 2024?,irrelevant
+Posso prendere un appuntamento con la segreteria?,contatti
+C'è un'aula studio?,biblioteca
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Quanto costa una stanza nello studentato?,alloggi
+Mi dici le scadenze dei pagamenti?,tasse
+Qual è il significato della vita?,irrelevant
+C'è il salto d'appello?,esami
+Qual è il numero della segreteria?,contatti
+Ci sono navette per il campus?,localita
+Chi ha scoperto l'America?,irrelevant
+Posso dare esami di altri corsi?,esami
+Quanti appelli ci sono all'anno?,esami
+Posso accedere alle risorse digitali da casa?,biblioteca
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Dove posso parcheggiare vicino all'università?,localita
+Come funziona la procedura di immatricolazione online?,iscrizione
+Come si cambia una ruota?,irrelevant
+Raccontami una barzelletta.,irrelevant
+Devo pagare la tassa regionale?,tasse
+Ci sono agevolazioni per l'ISEE?,tasse
+Come si fa il nodo alla cravatta?,irrelevant
+Quando scade la terza rata?,tasse
+Ci sono appartamenti per studenti disabili?,alloggi
+C'è un test d'ingresso?,iscrizione
+Qual è la posizione del laboratorio di chimica?,localita
+Vorrei informazioni sul corso di lettere.,corsi
+Qual è il piano di studi per economia?,corsi
+Dove cerco casa vicino all'università?,alloggi
+Gli alloggi sono misti?,alloggi
+Gli esami sono scritti o orali?,esami
+Cosa c'è stasera in TV?,irrelevant
+Quali sono gli orari della biblioteca?,biblioteca
+C'è una mappa delle sedi?,localita
+Come raggiungo l'università dalla stazione?,localita
+Che tempo fa oggi?,irrelevant
+Perché il cielo è blu?,irrelevant
+Qual è la scadenza per l'iscrizione?,iscrizione
+Come richiedere la riduzione delle tasse?,tasse
+Posso iscrivermi con riserva?,iscrizione
+Come rinuncio al posto alloggio?,alloggi
+Qual è l'indirizzo della sede centrale?,localita
+Devo prenotare il posto in biblioteca?,biblioteca
+A chi scrivo per problemi tecnici?,contatti
+La biblioteca è aperta nel weekend?,biblioteca
+Esiste un rimborso per le tasse?,tasse
+Posso studiare in biblioteca la sera?,biblioteca
+Ci sono corsi in lingua inglese?,corsi
+Chi può accedere alla mensa?,mensa
+C'è un bando per l'ammissione?,iscrizione
+Come si pianta un albero?,irrelevant
+Chi è il presidente degli Stati Uniti?,irrelevant
+Chi contatto per problemi con la prenotazione?,esami
+In che via si trova la segreteria?,localita
+Ci sono prese per il computer in biblioteca?,biblioteca
+Dove ricarico il badge per la mensa?,mensa
+C'è un servizio di foresteria?,alloggi
+C'è uno sportello fisico?,contatti
+Posso rifiutare un voto?,esami
+Serve una tessera per la mensa?,mensa
+Quanto dista la luna dalla terra?,irrelevant
+Come si gioca a scacchi?,irrelevant
+Posso mandare una PEC?,contatti
+Chi chiamo per informazioni amministrative?,contatti
+Dove posso comprare delle scarpe?,irrelevant
+Chi sono i Beatles?,irrelevant
+C'è il wifi in biblioteca?,biblioteca
+Qual è la velocità della luce?,irrelevant
+Posso mangiare in mensa la sera?,mensa
+Quando sono gli appelli d'esame?,esami
+Chi è il coordinatore del corso di biologia?,corsi
+Posso ospitare qualcuno nello studentato?,alloggi
+Come parlo con un operatore?,contatti
+Quando esce il bando alloggi?,alloggi
+A quanto ammonta la seconda rata?,tasse
+Dove trovo i contatti dei professori?,contatti
+Come si cura il mal di gola?,irrelevant
+Posso portare il pranzo da casa?,mensa
+Dove si trova l'aula magna?,localita
+Chi è il referente per la disabilità?,contatti
+Qual è il menu di oggi?,mensa
+Mi parli del corso di medicina?,corsi
+Mi consigli un ristorante cinese?,irrelevant
+Qual è il tuo colore preferito?,irrelevant
+La mensa è aperta il sabato?,mensa
+Dimmi il tuo nome.,irrelevant
+Posso seguire i corsi online?,corsi
+Come arrivo al campus?,localita
+Come cerco un libro nel catalogo?,biblioteca
+Dove si svolgono le lezioni di matematica?,localita
+C'è un corso di laurea magistrale in fisica?,corsi
+Come cancello una prenotazione?,esami
+Genera un numero casuale.,irrelevant
+La sede di architettura è in centro?,localita
+Come rinnovo un prestito?,biblioteca
+Quali documenti servono per l'iscrizione?,iscrizione
+Scrivimi una poesia.,irrelevant
+Devo portare il diploma originale?,iscrizione
+Come funziona la verbalizzazione?,esami
+Quanto costano le tasse universitarie?,tasse
+C'è una bacheca per gli annunci di affitto?,alloggi
+Dove sono le aule di ingegneria?,localita
+C'è un corso di ingegneria informatica?,corsi
+Fai un salto.,irrelevant
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Come prendo un libro in prestito?,biblioteca
+Come funziona il corso di laurea triennale?,corsi
+Dove vedo i risultati degli esami?,esami
+Qual è l'email della segreteria studenti?,contatti
+Chi ha vinto lo scudetto?,irrelevant
+Ci sono convenzioni per gli affitti?,alloggi
+Cosa succede se non passo un esame?,esami
+L'università è accessibile ai disabili?,localita
+La segreteria risponde al telefono?,contatti
+I corsi sono a frequenza obbligatoria?,corsi
+Come faccio domanda per un alloggio?,alloggi
+Quali materie si studiano a giurisprudenza?,corsi
+Dove si trovano le residenze universitarie?,alloggi
+Come mi prenoto a un esame?,esami
+Ci sono dormitori universitari?,alloggi
+Come contatto l'ufficio orientamento?,contatti
+Come recupero le credenziali per l'iscrizione?,iscrizione
+C'è una sala silenzio?,biblioteca
+Quali sono gli orari di apertura?,contatti
+Chi ha diritto all'alloggio?,alloggi
+Come posso pagare la prima rata?,tasse
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Mi indichi la strada per la facoltà?,localita
+C'è un bar nell'università?,mensa
+C'è un numero verde?,contatti
+Come mi iscrivo al test di ammissione?,iscrizione
+Dove restituisco i libri?,biblioteca
+Ci sono alternative vegetariane?,mensa
+Qual è la capitale della Francia?,irrelevant
+Quali corsi di laurea offrite?,corsi
+Cosa succede se non passo un esame?,esami
+C'è una bacheca per gli annunci di affitto?,alloggi
+Quali sono le scadenze per le tasse?,tasse
+Dove posso comprare delle scarpe?,irrelevant
+Quanto costano le tasse universitarie?,tasse
+Quanto costa una stanza nello studentato?,alloggi
+Quanto costa un biglietto per il cinema?,irrelevant
+Esiste un rimborso per le tasse?,tasse
+Come finalizzo l'iscrizione?,iscrizione
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Come richiedere la riduzione delle tasse?,tasse
+Qual è il tuo colore preferito?,irrelevant
+Posso ospitare qualcuno nello studentato?,alloggi
+I corsi sono a frequenza obbligatoria?,corsi
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Quali corsi di laurea offrite?,corsi
+Gli esami sono scritti o orali?,esami
+Quali sono gli orari della biblioteca?,biblioteca
+C'è un menu per celiaci?,mensa
+Dove sono i distributori automatici?,mensa
+Fai un salto.,irrelevant
+Qual è il piano di studi per economia?,corsi
+Quali sono gli orari di apertura?,contatti
+Posso studiare in biblioteca la sera?,biblioteca
+Mi consigli un ristorante cinese?,irrelevant
+Come si cambia una ruota?,irrelevant
+Dove restituisco i libri?,biblioteca
+Dove si trovano le residenze universitarie?,alloggi
+Come cancello una prenotazione?,esami
+A chi scrivo per problemi tecnici?,contatti
+Qual è la velocità della luce?,irrelevant
+Vorrei sapere quanto si paga di tasse.,tasse
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Chi è il presidente degli Stati Uniti?,irrelevant
+Genera un numero casuale.,irrelevant
+C'è una mappa delle sedi?,localita
+Chi chiamo per informazioni amministrative?,contatti
+C'è un test d'ingresso?,iscrizione
+Come faccio domanda per un alloggio?,alloggi
+La mensa è aperta il sabato?,mensa
+Posso portare il pranzo da casa?,mensa
+Che tempo fa oggi?,irrelevant
+Devo pagare la tassa regionale?,tasse
+Come cerco un libro nel catalogo?,biblioteca
+Come mi prenoto a un esame?,esami
+Perché il cielo è blu?,irrelevant
+Quando sono gli appelli d'esame?,esami
+C'è il wifi in biblioteca?,biblioteca
+Ci sono corsi in lingua inglese?,corsi
+Ci sono appartamenti per studenti disabili?,alloggi
+Quando aprono le immatricolazioni?,iscrizione
+Serve una tessera per la mensa?,mensa
+Posso dare esami di altri corsi?,esami
+Posso seguire i corsi online?,corsi
+Ci sono convenzioni per gli affitti?,alloggi
+Qual è il numero della segreteria?,contatti
+Qual è il menu di oggi?,mensa
+Devo portare il diploma originale?,iscrizione
+Qual è la posizione del laboratorio di chimica?,localita
+Come funziona la procedura di immatricolazione online?,iscrizione
+Come si fa il nodo alla cravatta?,irrelevant
+Come parlo con un operatore?,contatti
+Qual è l'orario di ricevimento?,contatti
+Come funziona il corso di laurea triennale?,corsi
+Qual è l'email della segreteria studenti?,contatti
+Quanto dista la luna dalla terra?,irrelevant
+Ci sono alternative vegetariane?,mensa
+Come contatto l'ufficio orientamento?,contatti
+Dove trovo il calendario degli esami?,esami
+Come mi iscrivo al test di ammissione?,iscrizione
+Qual è la capitale della Francia?,irrelevant
+In che via si trova la segreteria?,localita
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Raccontami una barzelletta.,irrelevant
+Posso prendere un appuntamento con la segreteria?,contatti
+Quando scade la terza rata?,tasse
+Mi indichi la strada per la facoltà?,localita
+C'è un bar nell'università?,mensa
+Dove vedo i risultati degli esami?,esami
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Quanto costa un pasto in mensa?,mensa
+Ci sono prese per il computer in biblioteca?,biblioteca
+Dove cerco casa vicino all'università?,alloggi
+Chi è il referente per la disabilità?,contatti
+Dove si trova l'aula magna?,localita
+Chi ha diritto all'alloggio?,alloggi
+Come si pianta un albero?,irrelevant
+Posso sostenere due esami lo stesso giorno?,esami
+Scrivimi una poesia.,irrelevant
+Chi ha scoperto l'America?,irrelevant
+Come rinnovo un prestito?,biblioteca
+Parliamo di politica.,irrelevant
+Qual è il miglior film del 2024?,irrelevant
+Posso stampare in biblioteca?,biblioteca
+Chi sono i Beatles?,irrelevant
+Dove ricarico il badge per la mensa?,mensa
+Quando esce il bando alloggi?,alloggi
+Cosa c'è stasera in TV?,irrelevant
+Dove si trova la mensa?,mensa
+Chi ha vinto lo scudetto?,irrelevant
+C'è un servizio di foresteria?,alloggi
+Dove si trova l'università?,localita
+Ci sono navette per il campus?,localita
+Mi parli del corso di medicina?,corsi
+La biblioteca è aperta nel weekend?,biblioteca
+Vorrei informazioni sul corso di lettere.,corsi
+A quanto ammonta la seconda rata?,tasse
+La segreteria risponde al telefono?,contatti
+Come faccio a iscrivermi?,iscrizione
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Ci sono dormitori universitari?,alloggi
+La sede di architettura è in centro?,localita
+L'università è accessibile ai disabili?,localita
+Mi dici le scadenze dei pagamenti?,tasse
+Dove si svolgono le lezioni di matematica?,localita
+C'è un bando per l'ammissione?,iscrizione
+Come posso pagare la prima rata?,tasse
+Chi è il coordinatore del corso di biologia?,corsi
+Come funziona la verbalizzazione?,esami
+Qual è l'indirizzo della sede centrale?,localita
+Dove posso parcheggiare vicino all'università?,localita
+Qual è il significato della vita?,irrelevant
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Qual è l'importo massimo delle tasse?,tasse
+Ci sono agevolazioni per l'ISEE?,tasse
+C'è una sala silenzio?,biblioteca
+Quando escono le date degli esami?,esami
+Dimmi il tuo nome.,irrelevant
+Qual è la scadenza per l'iscrizione?,iscrizione
+Quanti appelli ci sono all'anno?,esami
+Dove trovo il bollettino per le tasse?,tasse
+C'è un corso di ingegneria informatica?,corsi
+Posso iscrivermi con riserva?,iscrizione
+C'è un corso di laurea magistrale in fisica?,corsi
+Devo prenotare il posto in biblioteca?,biblioteca
+Posso mangiare in mensa la sera?,mensa
+Dove trovo i contatti dei professori?,contatti
+Posso iscrivermi part-time?,iscrizione
+Mi serve un idraulico.,irrelevant
+C'è uno sportello fisico?,contatti
+Dove sono le aule di ingegneria?,localita
+C'è un'aula studio?,biblioteca
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Come arrivo al campus?,localita
+Quali sono gli insegnamenti del primo anno?,corsi
+Quali sono gli orari della mensa?,mensa
+Come prendo un libro in prestito?,biblioteca
+Il corso di design è a numero chiuso?,corsi
+Come si gioca a scacchi?,irrelevant
+Posso rifiutare un voto?,esami
+Come rinuncio al posto alloggio?,alloggi
+Come raggiungo l'università dalla stazione?,localita
+Posso mandare una PEC?,contatti
+Quali materie si studiano a giurisprudenza?,corsi
+Come si cura il mal di gola?,irrelevant
+Chi può accedere alla mensa?,mensa
+Chi contatto per problemi con la prenotazione?,esami
+Gli alloggi sono misti?,alloggi
+Quali documenti servono per l'iscrizione?,iscrizione
+Mi consigli una ricetta per la carbonara?,irrelevant
+Dove è la biblioteca?,biblioteca
+C'è il salto d'appello?,esami
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+C'è un numero verde?,contatti
+Posso accedere alle risorse digitali da casa?,biblioteca
+L'università è accessibile ai disabili?,localita
+Qual è il significato della vita?,irrelevant
+Come posso pagare la prima rata?,tasse
+Come prendo un libro in prestito?,biblioteca
+Ci sono prese per il computer in biblioteca?,biblioteca
+Posso sostenere due esami lo stesso giorno?,esami
+Dove ricarico il badge per la mensa?,mensa
+Dove posso comprare delle scarpe?,irrelevant
+Mi consigli una ricetta per la carbonara?,irrelevant
+Dove si trovano le residenze universitarie?,alloggi
+Quanto costa una stanza nello studentato?,alloggi
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Posso iscrivermi con riserva?,iscrizione
+Chi sono i Beatles?,irrelevant
+Quali corsi di laurea offrite?,corsi
+Quali sono gli orari di apertura?,contatti
+Dove cerco casa vicino all'università?,alloggi
+Dove si trova l'aula magna?,localita
+C'è una sala silenzio?,biblioteca
+Come si pianta un albero?,irrelevant
+Qual è la capitale della Francia?,irrelevant
+Vorrei sapere quanto si paga di tasse.,tasse
+Ci sono dormitori universitari?,alloggi
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Parliamo di politica.,irrelevant
+C'è un numero verde?,contatti
+Dove si svolgono le lezioni di matematica?,localita
+Dove trovo i contatti dei professori?,contatti
+C'è un'aula studio?,biblioteca
+Perché il cielo è blu?,irrelevant
+Quali materie si studiano a giurisprudenza?,corsi
+Dove è la biblioteca?,biblioteca
+Qual è il tuo colore preferito?,irrelevant
+Posso studiare in biblioteca la sera?,biblioteca
+Devo prenotare il posto in biblioteca?,biblioteca
+Raccontami una barzelletta.,irrelevant
+Quando escono le date degli esami?,esami
+Posso rifiutare un voto?,esami
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Come raggiungo l'università dalla stazione?,localita
+Dove restituisco i libri?,biblioteca
+Come si gioca a scacchi?,irrelevant
+Che tempo fa oggi?,irrelevant
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Qual è la scadenza per l'iscrizione?,iscrizione
+Posso mandare una PEC?,contatti
+Ci sono agevolazioni per l'ISEE?,tasse
+Come cancello una prenotazione?,esami
+Ci sono convenzioni per gli affitti?,alloggi
+Dove vedo i risultati degli esami?,esami
+Qual è la velocità della luce?,irrelevant
+C'è un corso di laurea magistrale in fisica?,corsi
+Posso mangiare in mensa la sera?,mensa
+Devo portare il diploma originale?,iscrizione
+Ci sono alternative vegetariane?,mensa
+Posso accedere alle risorse digitali da casa?,biblioteca
+Come cerco un libro nel catalogo?,biblioteca
+Qual è l'importo massimo delle tasse?,tasse
+Quanto dista la luna dalla terra?,irrelevant
+La sede di architettura è in centro?,localita
+Chi ha vinto lo scudetto?,irrelevant
+Dove trovo il bollettino per le tasse?,tasse
+Come finalizzo l'iscrizione?,iscrizione
+Chi contatto per problemi con la prenotazione?,esami
+Quali sono gli orari della mensa?,mensa
+Cosa succede se non passo un esame?,esami
+C'è il salto d'appello?,esami
+Ci sono navette per il campus?,localita
+Come richiedere la riduzione delle tasse?,tasse
+Fai un salto.,irrelevant
+C'è un bar nell'università?,mensa
+Posso portare il pranzo da casa?,mensa
+Chi è il referente per la disabilità?,contatti
+Dove posso parcheggiare vicino all'università?,localita
+Cosa c'è stasera in TV?,irrelevant
+C'è un corso di ingegneria informatica?,corsi
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Qual è l'email della segreteria studenti?,contatti
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Posso iscrivermi part-time?,iscrizione
+Come mi iscrivo al test di ammissione?,iscrizione
+I corsi sono a frequenza obbligatoria?,corsi
+Chi è il coordinatore del corso di biologia?,corsi
+C'è uno sportello fisico?,contatti
+Scrivimi una poesia.,irrelevant
+Quando aprono le immatricolazioni?,iscrizione
+Qual è l'orario di ricevimento?,contatti
+Qual è il numero della segreteria?,contatti
+Mi consigli un ristorante cinese?,irrelevant
+Dove si trova la mensa?,mensa
+C'è una mappa delle sedi?,localita
+Quali sono le scadenze per le tasse?,tasse
+Come faccio domanda per un alloggio?,alloggi
+Mi dici le scadenze dei pagamenti?,tasse
+Quando scade la terza rata?,tasse
+Mi indichi la strada per la facoltà?,localita
+Come si cura il mal di gola?,irrelevant
+Ci sono appartamenti per studenti disabili?,alloggi
+Quanto costa un biglietto per il cinema?,irrelevant
+A quanto ammonta la seconda rata?,tasse
+Come faccio a iscrivermi?,iscrizione
+Chi ha diritto all'alloggio?,alloggi
+Quanti appelli ci sono all'anno?,esami
+Serve una tessera per la mensa?,mensa
+Genera un numero casuale.,irrelevant
+C'è il wifi in biblioteca?,biblioteca
+Quali documenti servono per l'iscrizione?,iscrizione
+La mensa è aperta il sabato?,mensa
+Gli esami sono scritti o orali?,esami
+Il corso di design è a numero chiuso?,corsi
+Qual è il piano di studi per economia?,corsi
+C'è un menu per celiaci?,mensa
+Chi chiamo per informazioni amministrative?,contatti
+Mi serve un idraulico.,irrelevant
+Chi può accedere alla mensa?,mensa
+Come si fa il nodo alla cravatta?,irrelevant
+Come recupero le credenziali per l'iscrizione?,iscrizione
+In che via si trova la segreteria?,localita
+Come arrivo al campus?,localita
+Chi ha scoperto l'America?,irrelevant
+Come parlo con un operatore?,contatti
+C'è un bando per l'ammissione?,iscrizione
+Qual è il miglior film del 2024?,irrelevant
+Posso seguire i corsi online?,corsi
+Come funziona la procedura di immatricolazione online?,iscrizione
+Quanto costa un pasto in mensa?,mensa
+Vorrei informazioni sul corso di lettere.,corsi
+Quando sono gli appelli d'esame?,esami
+Posso prendere un appuntamento con la segreteria?,contatti
+C'è un servizio di foresteria?,alloggi
+Mi parli del corso di medicina?,corsi
+La biblioteca è aperta nel weekend?,biblioteca
+C'è una bacheca per gli annunci di affitto?,alloggi
+Posso stampare in biblioteca?,biblioteca
+Dimmi il tuo nome.,irrelevant
+Dove sono i distributori automatici?,mensa
+Come contatto l'ufficio orientamento?,contatti
+La segreteria risponde al telefono?,contatti
+Quali sono gli insegnamenti del primo anno?,corsi
+Quanto costano le tasse universitarie?,tasse
+C'è un test d'ingresso?,iscrizione
+Come si cambia una ruota?,irrelevant
+Come funziona il corso di laurea triennale?,corsi
+Posso ospitare qualcuno nello studentato?,alloggi
+Come funziona la verbalizzazione?,esami
+Dove trovo il calendario degli esami?,esami
+Gli alloggi sono misti?,alloggi
+Come rinnovo un prestito?,biblioteca
+Dove si trova l'università?,localita
+Quali sono gli orari della biblioteca?,biblioteca
+Chi è il presidente degli Stati Uniti?,irrelevant
+Qual è il menu di oggi?,mensa
+A chi scrivo per problemi tecnici?,contatti
+Quando esce il bando alloggi?,alloggi
+Esiste un rimborso per le tasse?,tasse
+Posso dare esami di altri corsi?,esami
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Qual è la posizione del laboratorio di chimica?,localita
+Come mi prenoto a un esame?,esami
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Devo pagare la tassa regionale?,tasse
+Ci sono corsi in lingua inglese?,corsi
+Come rinuncio al posto alloggio?,alloggi
+Dove sono le aule di ingegneria?,localita
+Qual è l'indirizzo della sede centrale?,localita
+Dove restituisco i libri?,biblioteca
+Vorrei sapere quanto si paga di tasse.,tasse
+Chi ha scoperto l'America?,irrelevant
+Come richiedere la riduzione delle tasse?,tasse
+Il corso di design è a numero chiuso?,corsi
+Posso mandare una PEC?,contatti
+Dove si trova la mensa?,mensa
+Come si cura il mal di gola?,irrelevant
+Dove cerco casa vicino all'università?,alloggi
+Posso rifiutare un voto?,esami
+Chi è il coordinatore del corso di biologia?,corsi
+Ci sono alternative vegetariane?,mensa
+C'è un servizio di foresteria?,alloggi
+Quali sono gli orari di apertura?,contatti
+Ci sono appartamenti per studenti disabili?,alloggi
+Quando sono gli appelli d'esame?,esami
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Come contatto l'ufficio orientamento?,contatti
+Come faccio a iscrivermi?,iscrizione
+Come cerco un libro nel catalogo?,biblioteca
+Chi chiamo per informazioni amministrative?,contatti
+Dove vedo i risultati degli esami?,esami
+Posso ospitare qualcuno nello studentato?,alloggi
+Gli alloggi sono misti?,alloggi
+Esiste un rimborso per le tasse?,tasse
+Qual è il menu di oggi?,mensa
+Dove sono i distributori automatici?,mensa
+Mi indichi la strada per la facoltà?,localita
+Posso iscrivermi con riserva?,iscrizione
+Qual è la velocità della luce?,irrelevant
+Dove trovo i contatti dei professori?,contatti
+Devo pagare la tassa regionale?,tasse
+Qual è l'importo massimo delle tasse?,tasse
+C'è uno sportello fisico?,contatti
+La segreteria risponde al telefono?,contatti
+C'è un numero verde?,contatti
+Quali sono gli orari della mensa?,mensa
+C'è un menu per celiaci?,mensa
+Qual è la scadenza per l'iscrizione?,iscrizione
+Dove posso comprare delle scarpe?,irrelevant
+Ci sono navette per il campus?,localita
+Come prendo un libro in prestito?,biblioteca
+Devo prenotare il posto in biblioteca?,biblioteca
+C'è un corso di ingegneria informatica?,corsi
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+C'è il wifi in biblioteca?,biblioteca
+Quali sono le scadenze per le tasse?,tasse
+Cosa succede se non passo un esame?,esami
+Posso iscrivermi part-time?,iscrizione
+Quanto costa un pasto in mensa?,mensa
+Posso stampare in biblioteca?,biblioteca
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Quando aprono le immatricolazioni?,iscrizione
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Serve una tessera per la mensa?,mensa
+I corsi sono a frequenza obbligatoria?,corsi
+Quando scade la terza rata?,tasse
+Scrivimi una poesia.,irrelevant
+Come si fa il nodo alla cravatta?,irrelevant
+Come si gioca a scacchi?,irrelevant
+Come raggiungo l'università dalla stazione?,localita
+Gli esami sono scritti o orali?,esami
+Dove si trova l'aula magna?,localita
+Dove posso parcheggiare vicino all'università?,localita
+Posso prendere un appuntamento con la segreteria?,contatti
+Dimmi il tuo nome.,irrelevant
+Come parlo con un operatore?,contatti
+Dove è la biblioteca?,biblioteca
+C'è il salto d'appello?,esami
+Quali sono gli insegnamenti del primo anno?,corsi
+Come funziona la procedura di immatricolazione online?,iscrizione
+Come mi iscrivo al test di ammissione?,iscrizione
+C'è una mappa delle sedi?,localita
+A chi scrivo per problemi tecnici?,contatti
+Qual è l'indirizzo della sede centrale?,localita
+Dove trovo il calendario degli esami?,esami
+Qual è l'orario di ricevimento?,contatti
+Raccontami una barzelletta.,irrelevant
+Mi parli del corso di medicina?,corsi
+La sede di architettura è in centro?,localita
+Quanto costa una stanza nello studentato?,alloggi
+Qual è il piano di studi per economia?,corsi
+Come finalizzo l'iscrizione?,iscrizione
+Quali sono gli orari della biblioteca?,biblioteca
+La biblioteca è aperta nel weekend?,biblioteca
+Mi dici le scadenze dei pagamenti?,tasse
+Come rinnovo un prestito?,biblioteca
+Ci sono prese per il computer in biblioteca?,biblioteca
+Come posso pagare la prima rata?,tasse
+Perché il cielo è blu?,irrelevant
+Quanto costano le tasse universitarie?,tasse
+Devo portare il diploma originale?,iscrizione
+C'è un'aula studio?,biblioteca
+Come funziona il corso di laurea triennale?,corsi
+Fai un salto.,irrelevant
+C'è un bar nell'università?,mensa
+Qual è la posizione del laboratorio di chimica?,localita
+Come si cambia una ruota?,irrelevant
+In che via si trova la segreteria?,localita
+Come faccio domanda per un alloggio?,alloggi
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Qual è il miglior film del 2024?,irrelevant
+Qual è il significato della vita?,irrelevant
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Chi può accedere alla mensa?,mensa
+Qual è il tuo colore preferito?,irrelevant
+Come si pianta un albero?,irrelevant
+Chi ha diritto all'alloggio?,alloggi
+Dove trovo il bollettino per le tasse?,tasse
+Posso accedere alle risorse digitali da casa?,biblioteca
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Posso portare il pranzo da casa?,mensa
+Ci sono convenzioni per gli affitti?,alloggi
+Come funziona la verbalizzazione?,esami
+Quali materie si studiano a giurisprudenza?,corsi
+Quando esce il bando alloggi?,alloggi
+Vorrei informazioni sul corso di lettere.,corsi
+Qual è l'email della segreteria studenti?,contatti
+C'è un bando per l'ammissione?,iscrizione
+Come cancello una prenotazione?,esami
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Quanti appelli ci sono all'anno?,esami
+Posso seguire i corsi online?,corsi
+Dove si trovano le residenze universitarie?,alloggi
+L'università è accessibile ai disabili?,localita
+Mi consigli una ricetta per la carbonara?,irrelevant
+Chi è il referente per la disabilità?,contatti
+Mi consigli un ristorante cinese?,irrelevant
+Dove sono le aule di ingegneria?,localita
+Mi serve un idraulico.,irrelevant
+Chi contatto per problemi con la prenotazione?,esami
+La mensa è aperta il sabato?,mensa
+Come mi prenoto a un esame?,esami
+Come rinuncio al posto alloggio?,alloggi
+Dove ricarico il badge per la mensa?,mensa
+Cosa c'è stasera in TV?,irrelevant
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Quanto costa un biglietto per il cinema?,irrelevant
+A quanto ammonta la seconda rata?,tasse
+Posso studiare in biblioteca la sera?,biblioteca
+Chi ha vinto lo scudetto?,irrelevant
+Parliamo di politica.,irrelevant
+C'è una bacheca per gli annunci di affitto?,alloggi
+Genera un numero casuale.,irrelevant
+Qual è la capitale della Francia?,irrelevant
+Quali corsi di laurea offrite?,corsi
+Posso mangiare in mensa la sera?,mensa
+Chi sono i Beatles?,irrelevant
+Ci sono agevolazioni per l'ISEE?,tasse
+Dove si trova l'università?,localita
+C'è un corso di laurea magistrale in fisica?,corsi
+Che tempo fa oggi?,irrelevant
+C'è un test d'ingresso?,iscrizione
+Quando escono le date degli esami?,esami
+Ci sono corsi in lingua inglese?,corsi
+Come arrivo al campus?,localita
+Quanto dista la luna dalla terra?,irrelevant
+Dove si svolgono le lezioni di matematica?,localita
+Chi è il presidente degli Stati Uniti?,irrelevant
+Qual è il numero della segreteria?,contatti
+Quali documenti servono per l'iscrizione?,iscrizione
+Posso dare esami di altri corsi?,esami
+Ci sono dormitori universitari?,alloggi
+C'è una sala silenzio?,biblioteca
+Posso sostenere due esami lo stesso giorno?,esami
+Fai un salto.,irrelevant
+La biblioteca è aperta nel weekend?,biblioteca
+Qual è la posizione del laboratorio di chimica?,localita
+Quali sono le scadenze per le tasse?,tasse
+La segreteria risponde al telefono?,contatti
+Dove si svolgono le lezioni di matematica?,localita
+Ci sono corsi in lingua inglese?,corsi
+Come rinnovo un prestito?,biblioteca
+Come rinuncio al posto alloggio?,alloggi
+Dove cerco casa vicino all'università?,alloggi
+Qual è il significato della vita?,irrelevant
+Quali documenti servono per l'iscrizione?,iscrizione
+Qual è il miglior film del 2024?,irrelevant
+Genera un numero casuale.,irrelevant
+Chi ha vinto lo scudetto?,irrelevant
+Chi può accedere alla mensa?,mensa
+A chi scrivo per problemi tecnici?,contatti
+C'è un corso di ingegneria informatica?,corsi
+Come si gioca a scacchi?,irrelevant
+Posso dare esami di altri corsi?,esami
+Qual è la capitale della Francia?,irrelevant
+Quanto costa una stanza nello studentato?,alloggi
+Qual è l'email della segreteria studenti?,contatti
+C'è una bacheca per gli annunci di affitto?,alloggi
+Come raggiungo l'università dalla stazione?,localita
+Posso prendere un appuntamento con la segreteria?,contatti
+Qual è l'importo massimo delle tasse?,tasse
+La mensa è aperta il sabato?,mensa
+Come funziona il corso di laurea triennale?,corsi
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Quali sono gli orari della biblioteca?,biblioteca
+Chi è il referente per la disabilità?,contatti
+Dimmi il tuo nome.,irrelevant
+Come mi iscrivo al test di ammissione?,iscrizione
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Come si fa il nodo alla cravatta?,irrelevant
+Dove sono i distributori automatici?,mensa
+Qual è l'orario di ricevimento?,contatti
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Devo pagare la tassa regionale?,tasse
+Raccontami una barzelletta.,irrelevant
+L'università è accessibile ai disabili?,localita
+Dove vedo i risultati degli esami?,esami
+Dove trovo i contatti dei professori?,contatti
+C'è un menu per celiaci?,mensa
+Quanto dista la luna dalla terra?,irrelevant
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Mi indichi la strada per la facoltà?,localita
+Posso mangiare in mensa la sera?,mensa
+C'è un bando per l'ammissione?,iscrizione
+Serve una tessera per la mensa?,mensa
+Chi ha diritto all'alloggio?,alloggi
+Come si pianta un albero?,irrelevant
+Dove ricarico il badge per la mensa?,mensa
+Chi sono i Beatles?,irrelevant
+Qual è la scadenza per l'iscrizione?,iscrizione
+Dove si trova l'aula magna?,localita
+Quando esce il bando alloggi?,alloggi
+Qual è il tuo colore preferito?,irrelevant
+Dove posso comprare delle scarpe?,irrelevant
+Mi parli del corso di medicina?,corsi
+Cosa c'è stasera in TV?,irrelevant
+Dove sono le aule di ingegneria?,localita
+Come arrivo al campus?,localita
+C'è una mappa delle sedi?,localita
+Ci sono alternative vegetariane?,mensa
+Come finalizzo l'iscrizione?,iscrizione
+Dove posso parcheggiare vicino all'università?,localita
+Dove trovo il calendario degli esami?,esami
+Come posso pagare la prima rata?,tasse
+Dove è la biblioteca?,biblioteca
+A quanto ammonta la seconda rata?,tasse
+Dove trovo il bollettino per le tasse?,tasse
+Quanto costano le tasse universitarie?,tasse
+Chi ha scoperto l'America?,irrelevant
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Qual è l'indirizzo della sede centrale?,localita
+Mi serve un idraulico.,irrelevant
+C'è un'aula studio?,biblioteca
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Cosa succede se non passo un esame?,esami
+C'è un test d'ingresso?,iscrizione
+Quando escono le date degli esami?,esami
+Ci sono navette per il campus?,localita
+Posso mandare una PEC?,contatti
+Ci sono agevolazioni per l'ISEE?,tasse
+Come si cambia una ruota?,irrelevant
+Dove si trova la mensa?,mensa
+Come contatto l'ufficio orientamento?,contatti
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+C'è una sala silenzio?,biblioteca
+Gli alloggi sono misti?,alloggi
+Chi è il coordinatore del corso di biologia?,corsi
+Come parlo con un operatore?,contatti
+Posso stampare in biblioteca?,biblioteca
+Come funziona la verbalizzazione?,esami
+Quanto costa un pasto in mensa?,mensa
+Quando scade la terza rata?,tasse
+Devo prenotare il posto in biblioteca?,biblioteca
+Come mi prenoto a un esame?,esami
+Posso ospitare qualcuno nello studentato?,alloggi
+Qual è il numero della segreteria?,contatti
+Quali sono gli insegnamenti del primo anno?,corsi
+Dove trovo l'elenco dei corsi disponibili?,corsi
+In che via si trova la segreteria?,localita
+Perché il cielo è blu?,irrelevant
+Posso seguire i corsi online?,corsi
+Quando aprono le immatricolazioni?,iscrizione
+Che tempo fa oggi?,irrelevant
+Come prendo un libro in prestito?,biblioteca
+Quali sono gli orari di apertura?,contatti
+Quanti appelli ci sono all'anno?,esami
+Chi chiamo per informazioni amministrative?,contatti
+Quali sono gli orari della mensa?,mensa
+C'è un bar nell'università?,mensa
+I corsi sono a frequenza obbligatoria?,corsi
+Ci sono dormitori universitari?,alloggi
+C'è un servizio di foresteria?,alloggi
+Dove restituisco i libri?,biblioteca
+Chi è il presidente degli Stati Uniti?,irrelevant
+Gli esami sono scritti o orali?,esami
+Vorrei sapere quanto si paga di tasse.,tasse
+Qual è la velocità della luce?,irrelevant
+Posso iscrivermi part-time?,iscrizione
+Posso portare il pranzo da casa?,mensa
+Come faccio a iscrivermi?,iscrizione
+C'è uno sportello fisico?,contatti
+Parliamo di politica.,irrelevant
+Quanto costa un biglietto per il cinema?,irrelevant
+Posso iscrivermi con riserva?,iscrizione
+Come funziona la procedura di immatricolazione online?,iscrizione
+Mi consigli una ricetta per la carbonara?,irrelevant
+Ci sono convenzioni per gli affitti?,alloggi
+Devo portare il diploma originale?,iscrizione
+C'è il salto d'appello?,esami
+Posso accedere alle risorse digitali da casa?,biblioteca
+Quali corsi di laurea offrite?,corsi
+Esiste un rimborso per le tasse?,tasse
+Mi consigli un ristorante cinese?,irrelevant
+Qual è il piano di studi per economia?,corsi
+Mi dici le scadenze dei pagamenti?,tasse
+Posso sostenere due esami lo stesso giorno?,esami
+Quando sono gli appelli d'esame?,esami
+Ci sono appartamenti per studenti disabili?,alloggi
+Scrivimi una poesia.,irrelevant
+Come richiedere la riduzione delle tasse?,tasse
+La sede di architettura è in centro?,localita
+Dove si trovano le residenze universitarie?,alloggi
+Dove si trova l'università?,localita
+Come si cura il mal di gola?,irrelevant
+C'è un numero verde?,contatti
+Posso studiare in biblioteca la sera?,biblioteca
+Come cerco un libro nel catalogo?,biblioteca
+Quali materie si studiano a giurisprudenza?,corsi
+Il corso di design è a numero chiuso?,corsi
+Vorrei informazioni sul corso di lettere.,corsi
+Chi contatto per problemi con la prenotazione?,esami
+Qual è il menu di oggi?,mensa
+C'è un corso di laurea magistrale in fisica?,corsi
+Come faccio domanda per un alloggio?,alloggi
+Ci sono prese per il computer in biblioteca?,biblioteca
+Posso rifiutare un voto?,esami
+Come cancello una prenotazione?,esami
+C'è il wifi in biblioteca?,biblioteca
+C'è un test d'ingresso?,iscrizione
+Esiste un rimborso per le tasse?,tasse
+Dimmi il tuo nome.,irrelevant
+Come funziona il corso di laurea triennale?,corsi
+Ci sono convenzioni per gli affitti?,alloggi
+A chi scrivo per problemi tecnici?,contatti
+C'è una mappa delle sedi?,localita
+Quali corsi di laurea offrite?,corsi
+Qual è il miglior film del 2024?,irrelevant
+La segreteria risponde al telefono?,contatti
+Dove restituisco i libri?,biblioteca
+Quando scade la terza rata?,tasse
+C'è un bando per l'ammissione?,iscrizione
+Posso seguire i corsi online?,corsi
+C'è un numero verde?,contatti
+Come funziona la procedura di immatricolazione online?,iscrizione
+Dove sono i distributori automatici?,mensa
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Dove si trova la mensa?,mensa
+Devo prenotare il posto in biblioteca?,biblioteca
+C'è un corso di ingegneria informatica?,corsi
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Mi indichi la strada per la facoltà?,localita
+Come mi prenoto a un esame?,esami
+C'è un servizio di foresteria?,alloggi
+Qual è la velocità della luce?,irrelevant
+Che tempo fa oggi?,irrelevant
+Dove si trova l'università?,localita
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Posso prendere un appuntamento con la segreteria?,contatti
+Posso studiare in biblioteca la sera?,biblioteca
+Come si fa il nodo alla cravatta?,irrelevant
+Dove trovo i contatti dei professori?,contatti
+Dove posso parcheggiare vicino all'università?,localita
+Dove si trova l'aula magna?,localita
+Posso iscrivermi con riserva?,iscrizione
+Quali sono le scadenze per le tasse?,tasse
+Quanto dista la luna dalla terra?,irrelevant
+Posso portare il pranzo da casa?,mensa
+Chi sono i Beatles?,irrelevant
+Quanto costa una stanza nello studentato?,alloggi
+Posso dare esami di altri corsi?,esami
+Come si gioca a scacchi?,irrelevant
+Dove sono le aule di ingegneria?,localita
+C'è un'aula studio?,biblioteca
+Ci sono dormitori universitari?,alloggi
+Ci sono navette per il campus?,localita
+C'è il salto d'appello?,esami
+Qual è l'importo massimo delle tasse?,tasse
+Come finalizzo l'iscrizione?,iscrizione
+Cosa c'è stasera in TV?,irrelevant
+La biblioteca è aperta nel weekend?,biblioteca
+La sede di architettura è in centro?,localita
+Come parlo con un operatore?,contatti
+Posso ospitare qualcuno nello studentato?,alloggi
+Come contatto l'ufficio orientamento?,contatti
+Devo pagare la tassa regionale?,tasse
+Come arrivo al campus?,localita
+Quali sono gli orari della biblioteca?,biblioteca
+C'è il wifi in biblioteca?,biblioteca
+Come si cura il mal di gola?,irrelevant
+Dove trovo il calendario degli esami?,esami
+Cosa succede se non passo un esame?,esami
+Come richiedere la riduzione delle tasse?,tasse
+Perché il cielo è blu?,irrelevant
+Parliamo di politica.,irrelevant
+Come funziona la verbalizzazione?,esami
+Qual è l'orario di ricevimento?,contatti
+Posso rifiutare un voto?,esami
+Il corso di design è a numero chiuso?,corsi
+Quali sono gli insegnamenti del primo anno?,corsi
+Come prendo un libro in prestito?,biblioteca
+Mi serve un idraulico.,irrelevant
+Gli alloggi sono misti?,alloggi
+A quanto ammonta la seconda rata?,tasse
+Dove cerco casa vicino all'università?,alloggi
+I corsi sono a frequenza obbligatoria?,corsi
+Quando esce il bando alloggi?,alloggi
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Qual è la scadenza per l'iscrizione?,iscrizione
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Mi consigli una ricetta per la carbonara?,irrelevant
+Qual è il menu di oggi?,mensa
+C'è uno sportello fisico?,contatti
+Qual è il numero della segreteria?,contatti
+Qual è la capitale della Francia?,irrelevant
+Mi dici le scadenze dei pagamenti?,tasse
+Chi è il referente per la disabilità?,contatti
+Serve una tessera per la mensa?,mensa
+Dove posso comprare delle scarpe?,irrelevant
+Chi ha vinto lo scudetto?,irrelevant
+C'è una sala silenzio?,biblioteca
+Posso stampare in biblioteca?,biblioteca
+Dove trovo il bollettino per le tasse?,tasse
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Come mi iscrivo al test di ammissione?,iscrizione
+Come faccio a iscrivermi?,iscrizione
+Mi parli del corso di medicina?,corsi
+In che via si trova la segreteria?,localita
+Come cerco un libro nel catalogo?,biblioteca
+Vorrei informazioni sul corso di lettere.,corsi
+Ci sono corsi in lingua inglese?,corsi
+Dove si trovano le residenze universitarie?,alloggi
+Dove ricarico il badge per la mensa?,mensa
+Chi è il coordinatore del corso di biologia?,corsi
+C'è un bar nell'università?,mensa
+Vorrei sapere quanto si paga di tasse.,tasse
+Come posso pagare la prima rata?,tasse
+La mensa è aperta il sabato?,mensa
+Qual è l'indirizzo della sede centrale?,localita
+L'università è accessibile ai disabili?,localita
+Chi contatto per problemi con la prenotazione?,esami
+Posso iscrivermi part-time?,iscrizione
+Ci sono appartamenti per studenti disabili?,alloggi
+Come faccio domanda per un alloggio?,alloggi
+Posso accedere alle risorse digitali da casa?,biblioteca
+Ci sono prese per il computer in biblioteca?,biblioteca
+Quanto costa un pasto in mensa?,mensa
+Come rinnovo un prestito?,biblioteca
+Come rinuncio al posto alloggio?,alloggi
+Quando escono le date degli esami?,esami
+Dove è la biblioteca?,biblioteca
+Posso sostenere due esami lo stesso giorno?,esami
+Chi ha diritto all'alloggio?,alloggi
+Quando sono gli appelli d'esame?,esami
+Quali materie si studiano a giurisprudenza?,corsi
+Chi è il presidente degli Stati Uniti?,irrelevant
+Qual è il tuo colore preferito?,irrelevant
+Quanto costa un biglietto per il cinema?,irrelevant
+Chi chiamo per informazioni amministrative?,contatti
+Gli esami sono scritti o orali?,esami
+Ci sono alternative vegetariane?,mensa
+Come raggiungo l'università dalla stazione?,localita
+Chi può accedere alla mensa?,mensa
+Quando aprono le immatricolazioni?,iscrizione
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+C'è una bacheca per gli annunci di affitto?,alloggi
+Devo portare il diploma originale?,iscrizione
+Qual è la posizione del laboratorio di chimica?,localita
+Come cancello una prenotazione?,esami
+Dove vedo i risultati degli esami?,esami
+Quali sono gli orari della mensa?,mensa
+Quanto costano le tasse universitarie?,tasse
+Qual è l'email della segreteria studenti?,contatti
+Qual è il significato della vita?,irrelevant
+Fai un salto.,irrelevant
+Quali sono gli orari di apertura?,contatti
+Ci sono agevolazioni per l'ISEE?,tasse
+Posso mangiare in mensa la sera?,mensa
+Mi consigli un ristorante cinese?,irrelevant
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Quanti appelli ci sono all'anno?,esami
+Dove si svolgono le lezioni di matematica?,localita
+Posso mandare una PEC?,contatti
+Scrivimi una poesia.,irrelevant
+Genera un numero casuale.,irrelevant
+Come si cambia una ruota?,irrelevant
+Qual è il piano di studi per economia?,corsi
+C'è un menu per celiaci?,mensa
+C'è un corso di laurea magistrale in fisica?,corsi
+Raccontami una barzelletta.,irrelevant
+Chi ha scoperto l'America?,irrelevant
+Quali documenti servono per l'iscrizione?,iscrizione
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Come si pianta un albero?,irrelevant
+Quanto dista la luna dalla terra?,irrelevant
+L'università è accessibile ai disabili?,localita
+Quando scade la terza rata?,tasse
+Dove si trova l'università?,localita
+Dove è la biblioteca?,biblioteca
+Come si fa il nodo alla cravatta?,irrelevant
+Mi dici le scadenze dei pagamenti?,tasse
+Qual è il miglior film del 2024?,irrelevant
+Quali sono gli orari della mensa?,mensa
+Ci sono dormitori universitari?,alloggi
+C'è una bacheca per gli annunci di affitto?,alloggi
+Come faccio domanda per un alloggio?,alloggi
+Mi indichi la strada per la facoltà?,localita
+Posso iscrivermi con riserva?,iscrizione
+Raccontami una barzelletta.,irrelevant
+Mi consigli una ricetta per la carbonara?,irrelevant
+Come parlo con un operatore?,contatti
+Qual è la capitale della Francia?,irrelevant
+Qual è l'orario di ricevimento?,contatti
+Dove si trovano le residenze universitarie?,alloggi
+Ci sono convenzioni per gli affitti?,alloggi
+Dove ricarico il badge per la mensa?,mensa
+Come posso pagare la prima rata?,tasse
+Posso studiare in biblioteca la sera?,biblioteca
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Ci sono agevolazioni per l'ISEE?,tasse
+Mi parli del corso di medicina?,corsi
+Dove si trova l'aula magna?,localita
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Vorrei sapere quanto si paga di tasse.,tasse
+Fai un salto.,irrelevant
+Serve una tessera per la mensa?,mensa
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Qual è il numero della segreteria?,contatti
+Come rinnovo un prestito?,biblioteca
+Qual è l'email della segreteria studenti?,contatti
+Dove trovo il bollettino per le tasse?,tasse
+Ci sono alternative vegetariane?,mensa
+Dove si svolgono le lezioni di matematica?,localita
+Il corso di design è a numero chiuso?,corsi
+C'è un'aula studio?,biblioteca
+Quando aprono le immatricolazioni?,iscrizione
+Devo pagare la tassa regionale?,tasse
+Qual è la posizione del laboratorio di chimica?,localita
+Dove vedo i risultati degli esami?,esami
+Come prendo un libro in prestito?,biblioteca
+Come si gioca a scacchi?,irrelevant
+C'è un corso di ingegneria informatica?,corsi
+Chi ha vinto lo scudetto?,irrelevant
+Perché il cielo è blu?,irrelevant
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Come si cura il mal di gola?,irrelevant
+C'è un numero verde?,contatti
+Scrivimi una poesia.,irrelevant
+Come si pianta un albero?,irrelevant
+Genera un numero casuale.,irrelevant
+A quanto ammonta la seconda rata?,tasse
+Ci sono prese per il computer in biblioteca?,biblioteca
+C'è una sala silenzio?,biblioteca
+Esiste un rimborso per le tasse?,tasse
+Che tempo fa oggi?,irrelevant
+Qual è la scadenza per l'iscrizione?,iscrizione
+Dove sono i distributori automatici?,mensa
+Come cancello una prenotazione?,esami
+Chi è il coordinatore del corso di biologia?,corsi
+Quanto costano le tasse universitarie?,tasse
+I corsi sono a frequenza obbligatoria?,corsi
+Come mi prenoto a un esame?,esami
+Quali sono gli insegnamenti del primo anno?,corsi
+Qual è la velocità della luce?,irrelevant
+Cosa c'è stasera in TV?,irrelevant
+Come funziona il corso di laurea triennale?,corsi
+Qual è il menu di oggi?,mensa
+Come contatto l'ufficio orientamento?,contatti
+Come arrivo al campus?,localita
+Posso sostenere due esami lo stesso giorno?,esami
+Devo prenotare il posto in biblioteca?,biblioteca
+Cosa succede se non passo un esame?,esami
+Come si cambia una ruota?,irrelevant
+Come funziona la procedura di immatricolazione online?,iscrizione
+Dove posso comprare delle scarpe?,irrelevant
+Posso stampare in biblioteca?,biblioteca
+Quanto costa un biglietto per il cinema?,irrelevant
+Vorrei informazioni sul corso di lettere.,corsi
+Come mi iscrivo al test di ammissione?,iscrizione
+Chi può accedere alla mensa?,mensa
+Qual è l'importo massimo delle tasse?,tasse
+Come raggiungo l'università dalla stazione?,localita
+Quando sono gli appelli d'esame?,esami
+Posso portare il pranzo da casa?,mensa
+In che via si trova la segreteria?,localita
+Gli alloggi sono misti?,alloggi
+Dove cerco casa vicino all'università?,alloggi
+Come rinuncio al posto alloggio?,alloggi
+La sede di architettura è in centro?,localita
+Quali sono gli orari di apertura?,contatti
+Chi è il referente per la disabilità?,contatti
+Dove posso parcheggiare vicino all'università?,localita
+Posso seguire i corsi online?,corsi
+C'è il wifi in biblioteca?,biblioteca
+C'è un corso di laurea magistrale in fisica?,corsi
+Quali documenti servono per l'iscrizione?,iscrizione
+Dove restituisco i libri?,biblioteca
+A chi scrivo per problemi tecnici?,contatti
+Parliamo di politica.,irrelevant
+C'è un test d'ingresso?,iscrizione
+Quali materie si studiano a giurisprudenza?,corsi
+Posso dare esami di altri corsi?,esami
+C'è un servizio di foresteria?,alloggi
+Chi ha diritto all'alloggio?,alloggi
+Ci sono appartamenti per studenti disabili?,alloggi
+Come richiedere la riduzione delle tasse?,tasse
+Chi sono i Beatles?,irrelevant
+Dove si trova la mensa?,mensa
+La mensa è aperta il sabato?,mensa
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Posso mandare una PEC?,contatti
+Ci sono corsi in lingua inglese?,corsi
+Come cerco un libro nel catalogo?,biblioteca
+Chi contatto per problemi con la prenotazione?,esami
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Ci sono navette per il campus?,localita
+Mi consigli un ristorante cinese?,irrelevant
+Quali sono gli orari della biblioteca?,biblioteca
+Chi chiamo per informazioni amministrative?,contatti
+C'è un bando per l'ammissione?,iscrizione
+Come finalizzo l'iscrizione?,iscrizione
+Quando esce il bando alloggi?,alloggi
+Posso rifiutare un voto?,esami
+Qual è il tuo colore preferito?,irrelevant
+C'è un menu per celiaci?,mensa
+La biblioteca è aperta nel weekend?,biblioteca
+Quanto costa una stanza nello studentato?,alloggi
+C'è una mappa delle sedi?,localita
+Posso accedere alle risorse digitali da casa?,biblioteca
+Gli esami sono scritti o orali?,esami
+Quali corsi di laurea offrite?,corsi
+Quanto costa un pasto in mensa?,mensa
+Quali sono le scadenze per le tasse?,tasse
+Quanti appelli ci sono all'anno?,esami
+Dove sono le aule di ingegneria?,localita
+Devo portare il diploma originale?,iscrizione
+Quando escono le date degli esami?,esami
+C'è uno sportello fisico?,contatti
+La segreteria risponde al telefono?,contatti
+Mi serve un idraulico.,irrelevant
+Qual è il significato della vita?,irrelevant
+Posso ospitare qualcuno nello studentato?,alloggi
+Qual è il piano di studi per economia?,corsi
+Come funziona la verbalizzazione?,esami
+Posso prendere un appuntamento con la segreteria?,contatti
+Dove trovo il calendario degli esami?,esami
+Come faccio a iscrivermi?,iscrizione
+Dove trovo i contatti dei professori?,contatti
+C'è un bar nell'università?,mensa
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Posso mangiare in mensa la sera?,mensa
+Chi è il presidente degli Stati Uniti?,irrelevant
+Qual è l'indirizzo della sede centrale?,localita
+Posso iscrivermi part-time?,iscrizione
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Dimmi il tuo nome.,irrelevant
+Chi ha scoperto l'America?,irrelevant
+C'è il salto d'appello?,esami
+Chi è il coordinatore del corso di biologia?,corsi
+C'è il wifi in biblioteca?,biblioteca
+Devo portare il diploma originale?,iscrizione
+Come prendo un libro in prestito?,biblioteca
+Come cerco un libro nel catalogo?,biblioteca
+Chi contatto per problemi con la prenotazione?,esami
+Mi indichi la strada per la facoltà?,localita
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Vorrei informazioni sul corso di lettere.,corsi
+"Ho pagato le tasse in ritardo, c'è una mora?",tasse
+Chi ha vinto lo scudetto?,irrelevant
+Posso mandare una PEC?,contatti
+C'è un menu per celiaci?,mensa
+Dove vedo i risultati degli esami?,esami
+Qual è l'importo massimo delle tasse?,tasse
+Mi consigli un ristorante cinese?,irrelevant
+In che via si trova la segreteria?,localita
+Qual è il tuo colore preferito?,irrelevant
+Qual è la posizione del laboratorio di chimica?,localita
+C'è un servizio di foresteria?,alloggi
+Posso mangiare in mensa la sera?,mensa
+Devo prenotare il posto in biblioteca?,biblioteca
+Gli alloggi sono misti?,alloggi
+Qual è il miglior film del 2024?,irrelevant
+Qual è l'email della segreteria studenti?,contatti
+Che tempo fa oggi?,irrelevant
+Come finalizzo l'iscrizione?,iscrizione
+La biblioteca è aperta nel weekend?,biblioteca
+Dove è la biblioteca?,biblioteca
+Come raggiungo l'università dalla stazione?,localita
+Come mi iscrivo al test di ammissione?,iscrizione
+Ci sono alternative vegetariane?,mensa
+Dove si trovano le residenze universitarie?,alloggi
+Come contatto l'ufficio orientamento?,contatti
+Come faccio domanda per un alloggio?,alloggi
+Ci sono agevolazioni per l'ISEE?,tasse
+Come funziona il corso di laurea triennale?,corsi
+Ci sono corsi in lingua inglese?,corsi
+A quanto ammonta la seconda rata?,tasse
+Cosa succede se non passo un esame?,esami
+Genera un numero casuale.,irrelevant
+Esiste un rimborso per le tasse?,tasse
+Quali sono gli orari di apertura?,contatti
+Come parlo con un operatore?,contatti
+L'iscrizione è aperta agli studenti stranieri?,iscrizione
+Cosa c'è stasera in TV?,irrelevant
+Quanto dista la luna dalla terra?,irrelevant
+Come si fa il nodo alla cravatta?,irrelevant
+Posso sostenere due esami lo stesso giorno?,esami
+Come funziona la verbalizzazione?,esami
+Quanto costano le tasse universitarie?,tasse
+Mi dici le scadenze dei pagamenti?,tasse
+Come si pianta un albero?,irrelevant
+Gli esami sono scritti o orali?,esami
+Qual è l'orario di ricevimento?,contatti
+Posso dare esami di altri corsi?,esami
+Quanto costa una stanza nello studentato?,alloggi
+Ci sono prese per il computer in biblioteca?,biblioteca
+Quali corsi di laurea offrite?,corsi
+Dove trovo l'elenco dei corsi disponibili?,corsi
+Come rinnovo un prestito?,biblioteca
+La mensa è aperta il sabato?,mensa
+Come accedo alle tariffe agevolate per la mensa?,mensa
+Come rinuncio al posto alloggio?,alloggi
+C'è un corso di laurea magistrale in fisica?,corsi
+Quanti appelli ci sono all'anno?,esami
+Posso studiare in biblioteca la sera?,biblioteca
+Come mi prenoto a un esame?,esami
+Dove sono le aule di ingegneria?,localita
+Serve una tessera per la mensa?,mensa
+Posso prendere un appuntamento con la segreteria?,contatti
+Parliamo di politica.,irrelevant
+Come arrivo al campus?,localita
+Posso iscrivermi part-time?,iscrizione
+Dove posso parcheggiare vicino all'università?,localita
+Dimmi il tuo nome.,irrelevant
+Chi chiamo per informazioni amministrative?,contatti
+Dove ricarico il badge per la mensa?,mensa
+Fai un salto.,irrelevant
+Qual è il piano di studi per economia?,corsi
+I corsi sono a frequenza obbligatoria?,corsi
+Quali sono gli orari della biblioteca?,biblioteca
+Ci sono convenzioni per gli affitti?,alloggi
+C'è uno sportello fisico?,contatti
+Posso ospitare qualcuno nello studentato?,alloggi
+C'è un'aula studio?,biblioteca
+Quali materie si studiano a giurisprudenza?,corsi
+Ci sono dormitori universitari?,alloggi
+Ci sono navette per il campus?,localita
+Chi può accedere alla mensa?,mensa
+Cosa devo fare per il trasferimento da un altro ateneo?,iscrizione
+Vorrei sapere quanto si paga di tasse.,tasse
+Come posso pagare la prima rata?,tasse
+Quando escono le date degli esami?,esami
+La sede di architettura è in centro?,localita
+C'è una mappa delle sedi?,localita
+Il corso di design è a numero chiuso?,corsi
+C'è un corso di ingegneria informatica?,corsi
+A chi scrivo per problemi tecnici?,contatti
+Chi ha scoperto l'America?,irrelevant
+C'è una bacheca per gli annunci di affitto?,alloggi
+La segreteria risponde al telefono?,contatti
+Come si cambia una ruota?,irrelevant
+Chi ha diritto all'alloggio?,alloggi
+Quali sono gli insegnamenti del primo anno?,corsi
+Dove si trova l'università?,localita
+Dove restituisco i libri?,biblioteca
+Chi è il presidente degli Stati Uniti?,irrelevant
+Posso seguire i corsi online?,corsi
+Ci sono appartamenti per studenti disabili?,alloggi
+L'università è accessibile ai disabili?,localita
+Qual è la capitale della Francia?,irrelevant
+C'è una sala silenzio?,biblioteca
+Come cancello una prenotazione?,esami
+C'è il salto d'appello?,esami
+Quali sono le scadenze per le tasse?,tasse
+Dove trovo il bollettino per le tasse?,tasse
+Mi serve un idraulico.,irrelevant
+Mi consigli una ricetta per la carbonara?,irrelevant
+Posso stampare in biblioteca?,biblioteca
+Chi è il referente per la disabilità?,contatti
+Cosa è incluso nell'affitto dello studentato?,alloggi
+Posso portare il pranzo da casa?,mensa
+Dove posso comprare delle scarpe?,irrelevant
+Posso rifiutare un voto?,esami
+Come funziona il calcolo delle tasse in base al reddito?,tasse
+Come richiedere la riduzione delle tasse?,tasse
+C'è un bar nell'università?,mensa
+Chi sono i Beatles?,irrelevant
+Dove si trova la mensa?,mensa
+Quanto costa un pasto in mensa?,mensa
+Quando aprono le immatricolazioni?,iscrizione
+Devo pagare la tassa regionale?,tasse
+Qual è il menu di oggi?,mensa
+Quanto costa un biglietto per il cinema?,irrelevant
+Dove sono i distributori automatici?,mensa
+Come funziona la procedura di immatricolazione online?,iscrizione
+Scrivimi una poesia.,irrelevant
+C'è un test d'ingresso?,iscrizione
+Posso iscrivermi con riserva?,iscrizione
+Dove si svolgono le lezioni di matematica?,localita
+Quando esce il bando alloggi?,alloggi
+Raccontami una barzelletta.,irrelevant
+Come si cura il mal di gola?,irrelevant
+Posso accedere alle risorse digitali da casa?,biblioteca
+Quando sono gli appelli d'esame?,esami
+Mi parli del corso di medicina?,corsi
+Quali sono gli orari della mensa?,mensa
+Quando scade la terza rata?,tasse
+Qual è la velocità della luce?,irrelevant
+Cosa ne pensi dell'intelligenza artificiale?,irrelevant
+Dove trovo il calendario degli esami?,esami
+Qual è il numero della segreteria?,contatti
+Quali documenti servono per l'iscrizione?,iscrizione
+Perché il cielo è blu?,irrelevant
+Qual è la scadenza per l'iscrizione?,iscrizione
+Qual è l'indirizzo della sede centrale?,localita
+C'è un bando per l'ammissione?,iscrizione
+C'è un numero verde?,contatti
+Come faccio a iscrivermi?,iscrizione
+Dove trovo i contatti dei professori?,contatti
+Dove cerco casa vicino all'università?,alloggi
+Qual è il significato della vita?,irrelevant
+Dove si trova l'aula magna?,localita
+Come si gioca a scacchi?,irrelevant
+Dove si trova l'università?,localita
+C'è una bacheca per gli annunci di affitto?,alloggi
+Come recupero le credenziali per l'iscrizione?,iscrizione
+Come mi iscrivo al test di ammissione?,iscrizione
+Qual è il piano di studi per economia?,corsi
+Posso mandare una PEC?,contatti
+C'è un numero verde?,contatti
+Quali sono gli insegnamenti del primo anno?,corsi
+C'è un servizio di foresteria?,alloggi
+Qual è il significato della vita?,irrelevant
+Devo pagare la tassa regionale?,tasse
+Come contatto l'ufficio orientamento?,contatti
+Qual è l'email della segreteria studenti?,contatti
+Quanto costa un pasto in mensa?,mensa
+Quali documenti servono per l'iscrizione?,iscrizione
+Quando escono le date degli esami?,esami
+Qual è l'importo massimo delle tasse?,tasse
+Come raggiungo l'università dalla stazione?,localita
+Cosa succede se non passo un esame?,esami
+Mi consigli una ricetta per la carbonara?,irrelevant

@@ -36,9 +36,9 @@ models/*
 !models/.gitkeep
 
 # Data files
-data/external/
-data/processed/
-data/raw/
+# data/external/
+# data/processed/
+# data/raw/
 
 # Logs and notebooks checkpoints
 .ipynb_checkpoints/
