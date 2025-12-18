@@ -146,9 +146,18 @@ elif app_mode == "😊 Sentiment Analysis":
             label = result['label']
             score = result['score']
             
-            # Colore badge
-            color = "green" if label == "positive" else "red"
-            st.markdown(f"### Sentiment: :{color}[{label.upper()}]")
+            # Colore badge per le 7 classi mental health
+            color_map = {
+                "normal": "green",
+                "anxiety": "orange",
+                "stress": "orange", 
+                "depression": "red",
+                "bipolar": "red",
+                "personality disorder": "red",
+                "suicidal": "red"
+            }
+            color = color_map.get(label, "gray")
+            st.markdown(f"### Stato Mentale: :{color}[{label.upper()}]")
             st.progress(score, text=f"Confidenza: {score:.2f}")
 
     elif input_method == "Upload CSV Batch":

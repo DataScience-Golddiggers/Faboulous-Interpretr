@@ -8,7 +8,7 @@ from src.utils import get_device
 logger = logging.getLogger(__name__)
 
 class SentimentAnalyzerModule:
-    def __init__(self, model_name: str = "xlm-roberta-base", lora_path: str = "models/xlmroberta_checkpoints"): #sentiment_lora
+    def __init__(self, model_name: str = "xlm-roberta-base", lora_path: str = "models/sentiment_lora"):
         self.device = get_device()
         
         # Definisci il percorso per la cache locale dei modelli e path assoluto LoRA
@@ -22,14 +22,14 @@ class SentimentAnalyzerModule:
             logger.info(f"Caricamento modello base: {model_name}")
             self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=self.models_dir)
             
-            # Label map standard per xlm-roberta-base trained con il nostro script
-            id2label = {0: "negative", 1: "neutral", 2: "positive"}
-            label2id = {"negative": 0, "neutral": 1, "positive": 2}
+            # Label map per mental.csv (7 classi, ordine alfabetico)
+            id2label = {0: "anxiety", 1: "bipolar", 2: "depression", 3: "normal", 4: "personality disorder", 5: "stress", 6: "suicidal"}
+            label2id = {"anxiety": 0, "bipolar": 1, "depression": 2, "normal": 3, "personality disorder": 4, "stress": 5, "suicidal": 6}
 
             # 2. Carica Modello Base
             self.base_model = AutoModelForSequenceClassification.from_pretrained(
                 model_name, 
-                num_labels=3,
+                num_labels=7,
                 id2label=id2label,
                 label2id=label2id,
                 cache_dir=self.models_dir
