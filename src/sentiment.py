@@ -8,7 +8,7 @@ from src.utils import get_device
 logger = logging.getLogger(__name__)
 
 class SentimentAnalyzerModule:
-    def __init__(self, model_name: str = "xlm-roberta-base", lora_path: str = "models/sentiment_lora"):
+    def __init__(self, model_name: str = "xlm-roberta-base", lora_path: str = "models/xlmroberta_checkpoints"): #sentiment_lora
         self.device = get_device()
         
         # Definisci il percorso per la cache locale dei modelli e path assoluto LoRA
