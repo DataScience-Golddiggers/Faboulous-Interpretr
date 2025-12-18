@@ -11,7 +11,7 @@ from src.utils import setup_logging, get_device as device
 
 # Configurazione Pagina
 st.set_page_config(
-    page_title="AI NLP Toolkit",
+    page_title="NLP Toolkit",
     page_icon="🤖",
     layout="wide"
 )
@@ -132,8 +132,9 @@ elif app_mode == "📄 Doc Summarizer":
 
 # --- Pagina Sentiment ---
 elif app_mode == "😊 Sentiment Analysis":
-    st.title("Analisi Sentiment Recensioni")
+    st.title("Analisi sulla Salute Mentale")
     
+    st.write("Scrivi una frase in inglese per analizzare la salute mentale o carica un file csv con frasi multiple. Utile per analizzare salute mentale di un utente in base ai messaggi.")
     input_method = st.radio("Metodo Input:", ["Analisi Singola", "Upload CSV Batch"])
     
     if input_method == "Analisi Singola":
