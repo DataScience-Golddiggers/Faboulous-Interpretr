@@ -29,18 +29,19 @@ def load_sentiment_analyzer():
 
 # --- Sidebar Navigazione ---
 st.sidebar.title("Navigazione")
-app_mode = st.sidebar.radio("Scegli Modulo:", ["🏠 Home", "📄 Doc Summarizer", "😊 Sentiment Analysis"])
+app_mode = st.sidebar.radio("Scegli un modulo:", ["🏠 Home", "📄 Doc Summarizer", "😊 Sentiment Analysis"])
 
 # --- Pagina Home ---
 if app_mode == "🏠 Home":
-    st.title("Sistema NLP Avanzato")
+    st.title("NLP Toolkit")
     st.markdown("""
-    Benvenuto nella suite di analisi testuale AI.
+    Benvenuto nella suite di analisi testuale dei Golddiggers, sviluppata nell'ambito della tesina del corso di Data Science.
     
-    Questo tool offre due funzionalità principali basate su modelli Transformer State-of-the-Art per l'italiano:
+    Nella sua attuale configurazione, questo tool offre due funzionalità principali basate su modelli Transformer State-of-the-Art:
     
-    1.  **Technical Summarization:** Sintesi automatica di documentazione tecnica (PDF, URL, OpenAPI) usando **IT5**.
-    2.  **Review Sentiment Analysis:** Analisi del sentiment su recensioni utente usando **FEEL-IT**.
+    1.  **Technical Summarization:** sintesi automatica di documentazione tecnica (PDF, URL, OpenAPI) usando **IT5**, specifico per l'italiano ma facilmente intercambiabile con soluzioni multilingua.
+                
+    2.  **Review Sentiment Analysis:** analisi del sentiment su recensioni utente usando **xlm-roberta-base**, nella sua versione inglese.
     
     👈 **Seleziona un modulo dalla barra laterale per iniziare.**
     """)
@@ -52,18 +53,32 @@ if app_mode == "🏠 Home":
     elif(os.name == "posix"):
         lol = "Linux/Mac"
     else:
-        lol = "Che cinesata è fra?"
+        lol = "Woah, hai un sistema strano amico!"
 
     hw = ""
     if str(device()) == "cuda":
         hw = "CUDA (NVIDIA)"
     elif str(device()) == "mps":
         hw = "Apple MPS"
+    elif str(device()) == "rocm":
+        hw = "ROCm (AMD)"
+    elif str(device()) == "tpu":    
+        hw = "TPU"
+    elif str(device()) == "xpu":    
+        hw = "XPU"
+    elif str(device()) == "npu":
+        hw = "NPU"
+    elif str(device()) == "vulkan":
+        hw = "Vulkan GPU"
     else:
-        hw = "CPU"
+        hw = "CPU (nessuna, mi dispiace!)"
     
 
     st.info(f"Sistema in esecuzione su: {lol} | Accelerazione hardware rilevata: {hw}.")
+
+    st.markdown("----")
+    st.link_button("Codice sorgente", "https://github.com/DataScience-Golddiggers/Faboulous-interpretr", icon="💻") 
+    st.link_button("Cercaci su GitHub", "https://github.com/DataScience-Golddiggers", icon="🐙")
 
 # --- Pagina Summarizer ---
 elif app_mode == "📄 Doc Summarizer":
