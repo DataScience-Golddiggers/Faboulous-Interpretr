@@ -13,7 +13,11 @@ from src.utils import setup_logging, get_device as device
 st.set_page_config(
     page_title="NLP Toolkit",
     page_icon="🤖",
-    layout="wide"
+    layout="wide",
+    menu_items={
+        "Report a bug": "https://github.com/DataScience-Golddiggers/Faboulous-interpretr/issues",
+        "About": "NLP Toolkit by Golddiggers - Data Science Course Project"
+    }
 )
 
 setup_logging()
@@ -82,8 +86,9 @@ if app_mode == "🏠 Home":
 
 # --- Pagina Summarizer ---
 elif app_mode == "📄 Doc Summarizer":
-    st.title("Sintesi Documentazione Tecnica")
+    st.title("Sintesi Documentazione")
     st.write("Carica un documento o incolla un URL per ottenere un riassunto strutturato.")
+    st.write("Il modello IT5 che viene scaricato automaticamente alla prima richiesta è specifico per l'italiano, ma può essere facilmente sotituito con una sua variante inglese/multilingue.")
     
     # Input
     source_type = st.radio("Fonte Dati:", ["Testo Libero", "PDF", "URL Web", "OpenAPI Spec (JSON/YAML)"])
@@ -153,7 +158,7 @@ elif app_mode == "😊 Sentiment Analysis":
     input_method = st.radio("Metodo Input:", ["Analisi Singola", "Upload CSV Batch"])
     
     if input_method == "Analisi Singola":
-        text = st.text_area("Scrivi una recensione:", "Il servizio è stato ottimo, ma il cibo era freddo.")
+        text = st.text_area("Scrivi una recensione:", "what a lovely day to do an exam!")
         if st.button("Analizza"):
             with st.spinner("Analisi in corso..."):
                 analyzer = load_sentiment_analyzer()
