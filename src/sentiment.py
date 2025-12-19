@@ -104,7 +104,7 @@ class SentimentAnalyzerModule:
                 "suicidal",
             ]
             generic_sentiment = ["negative", "neutral", "positive"]
-            mental_grouped = ["Normal", "Serious", "Light", "Depression"]
+            mental_grouped = ["depression", "Light", "Normal", "Serious"]  # vedi mapping nel notebook EDA
 
             label_presets = {
                 3: generic_sentiment,
@@ -112,16 +112,8 @@ class SentimentAnalyzerModule:
                 7: mental_health_labels,
             }
 
-            if peft_label_map:
-                sorted_pairs = sorted(((int(k), v) for k, v in peft_label_map.items()), key=lambda x: x[0])
-                labels_order = [v for _, v in sorted_pairs]
-            elif adapter_num_labels in label_presets:
-                labels_order = label_presets[adapter_num_labels]
-            elif adapter_num_labels:
-                labels_order = [f"label_{i}" for i in range(adapter_num_labels)]
-            else:
-                labels_order = mental_health_labels
-
+            labels_order = mental_grouped
+            
             id2label = {i: lbl for i, lbl in enumerate(labels_order)}
             label2id = {lbl: i for i, lbl in enumerate(labels_order)}
             logger.info(f"Classi impostate: {labels_order}")
