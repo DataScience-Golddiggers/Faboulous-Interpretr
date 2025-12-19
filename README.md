@@ -4,7 +4,7 @@
 
 > **Progetto Universitario NLP (9 CFU)**
 > 
-> Un toolkit NLP avanzato basato su modelli Transformer italiani State-of-the-Art per la sintesi di documentazione tecnica e l'analisi del sentiment.
+> Un toolkit NLP avanzato basato su architetture Transformer State-of-the-Art per la sintesi documentale e l'analisi della salute mentale tramite tecniche PEFT (LoRA).
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -15,55 +15,69 @@
 
 ## 🚀 Panoramica del Progetto
 
-**Faboulous-Interpretr** è un'applicazione NLP *production-ready* sviluppata come tesina per il corso di Data Science. A differenza di semplici wrapper API, implementa una pipeline ingegneristica completa per gestire scenari reali complessi.
+**Faboulous-Interpretr** è una piattaforma NLP *production-ready* progettata per affrontare due task complessi di elaborazione del linguaggio naturale: la sintesi di documentazione tecnica estesa e l'identificazione di pattern legati alla salute mentale nei testi.
 
-Le funzionalità core sono due:
-1.  **📄 Summarization Avanzata**: Sintesi di documenti tecnici lunghi (PDF, Specifiche API) utilizzando un approccio **Map-Reduce** con modelli IT5.
-2.  **😊 Sentiment Analysis**: Classificazione di recensioni (singole o batch CSV) con modelli FEEL-IT specifici per la lingua italiana.
+Il progetto si distingue per l'adozione di tecniche di ottimizzazione avanzate come **Map-Reduce** per la gestione di testi lunghi e **LoRA (Low-Rank Adaptation)** per il fine-tuning efficiente dei modelli.
 
-## ✨ Features Chiave & Architettura
+### Funzionalità Core
+1.  **📄 Summarization Strutturata**: Sintesi intelligente di documenti tecnici (PDF, API Specs, Web) mantenendo la coerenza logica tramite chunking ricorsivo.
+2.  **🧠 Mental Health Analysis**: Classificazione del testo per l'identificazione di stati emotivi e psicologici (es. *Anxiety*, *Depression*, *Stress*) utilizzando modelli XLM-RoBERTa adattati con LoRA.
 
-### 1. Documentation Summarizer (con Map-Reduce)
-Il sistema supera il limite dei token (tipico dei modelli BERT/T5) implementando una strategia custom:
-*   **Ingestion Multi-Source**: Supporto nativo per PDF (`PyMuPDF`), Web Scraping (`Trafilatura`) e Specifiche OpenAPI (parsing JSON/YAML).
-*   **Semantic Chunking**: Un algoritmo ricorsivo (`RecursiveTokenChunker`) divide il testo preservando i confini delle frasi e del significato.
-*   **Map-Reduce Logic**: I testi lunghi vengono processati a blocchi e poi sintetizzati strutturalmente, evitando la perdita di informazioni cruciali nelle sezioni intermedie.
-*   **Modello**: `it5-base-summarization` (E. Federici), fine-tuned su dataset italiani.
+## 🏗️ Architettura del Sistema
 
-### 2. Sentiment Analysis (Batch Optimized)
-*   **Input Flessibile**: Analisi real-time di testo libero o elaborazione batch di file CSV.
-*   **Ingegneria del Prompt**: Logica di pre-processing per pulire i dati grezzi (rimozione URL, normalizzazione).
-*   **Modello**: `feel-it-italian-sentiment` (MilaNLProc), SOTA per l'analisi delle emozioni in italiano.
+Il sistema è modulare e progettato per scalare, con una chiara separazione tra ingestione dati, logica di inferenza e interfaccia utente.
 
-### 3. Valutazione Quantitativa
-Il progetto include una pipeline di valutazione automatica basata su metriche **ROUGE** per certificare la qualità dei riassunti generati.
+### 1. Documentation Summarizer (Map-Reduce)
+Per superare i limiti di context window dei Transformer standard, abbiamo implementato una pipeline custom:
+*   **Ingestion Agnostica**: Adattatori specifici per PDF (`PyMuPDF`), Web (`Trafilatura`) e file JSON/YAML (OpenAPI).
+*   **Recursive Chunking**: Segmentazione semantica del testo che preserva i confini delle frasi per evitare troncamenti brutali.
+*   **Map-Reduce Strategy**: Ogni segmento viene riassunto individualmente (Map) e i risultati vengono aggregati strutturalmente (Reduce), garantendo che nessun dettaglio tecnico venga perso.
+*   **Backbone**: `it5-base-summarization`, fine-tuned specificamente per la lingua italiana.
 
-## 📊 Performance Evaluation
+### 2. Sentiment & Mental Health Engine (PEFT/LoRA)
+Un modulo di classificazione altamente specializzato:
+*   **Model Architecture**: `XLM-RoBERTa Base` potenziato con adapter **LoRA**. Questo permette di avere un modello performante con un footprint di memoria ridotto, aggiornando meno dell'1% dei parametri totali durante il training.
+*   **Fine-Tuning Pipeline**: Script di training dedicato (`train_sentiment.py`) che gestisce il ciclo di vita del modello, dal preprocessing del dataset al salvataggio degli adapter.
+*   **Target Classes**: Configurato per rilevare sfumature complesse (es. *Normal*, *Depression*, *Anxiety*) oltre al classico sentiment positivo/negativo.
 
-Di seguito i risultati della valutazione quantitativa (ROUGE) condotta su un dataset di validazione curato manualmente (Notizie tech/mediche/clima):
+## 📂 Struttura della Repository
 
-| Metrica | Punteggio | Interpretazione |
-|---------|-----------|-----------------|
-| **ROUGE-1** | **30.11%** | Buon overlap lessicale (parole singole) per un modello zero-shot. |
-| **ROUGE-2** | **9.98%** | Indica che il modello riformula attivamente le frasi invece di copiare. |
-| **ROUGE-L** | **25.79%** | La struttura logica del riassunto segue fedelmente l'originale. |
-
-> *Nota: I punteggi dimostrano che il modello produce riassunti coerenti e semanticamente validi, pur variando il lessico rispetto al riferimento "gold standard".*
+```text
+Faboulous-Interpretr/
+├── app.py                  # Entry point Streamlit (UI & Orchestration)
+├── requirements.txt        # Dipendenze di produzione
+├── data/
+│   ├── external/           # Dati da fonti esterne
+│   ├── processed/          # Dataset puliti e pronti per il training
+│   └── raw/                # Dati grezzi (CSV, PDF, JSON)
+├── docs/                   # Documentazione tecnica e accademica
+├── models/                 # Model Registry locale (Checkpoint LoRA, Cache HF)
+├── notebooks/              # Jupyter Notebooks per EDA e sperimentazione
+│   ├── 1_EDA_and_Baseline.ipynb
+│   └── sentiment_analysis_nn.ipynb
+└── src/                    # Source Code
+    ├── data_ingestion.py   # Loader per PDF, URL e OpenAPI
+    ├── preprocessing.py    # Text Cleaning e Recursive Token Chunker
+    ├── summarization.py    # Logica di inferenza Summarization
+    ├── sentiment.py        # Logica di inferenza Sentiment (Caricamento LoRA)
+    ├── train_sentiment.py  # Pipeline di training PEFT/LoRA
+    ├── evaluation.py       # Script di validazione metriche (ROUGE)
+    └── utils.py            # Hardware detection e Logging centralizzato
+```
 
 ## 🛠️ Tech Stack
 
-*   **Frontend**: Streamlit (Interfaccia reattiva)
-*   **Deep Learning**: PyTorch, Hugging Face Transformers
-*   **Data Processing**: Pandas, PyMuPDF, Trafilatura
-*   **Evaluation**: ROUGE Score, Evaluate library
-*   **Hardware**: Rilevamento automatico e supporto per CUDA (NVIDIA) e MPS (Apple Silicon).
+*   **Frontend**: Streamlit
+*   **Modeling**: PyTorch, Hugging Face Transformers, PEFT (Parameter-Efficient Fine-Tuning)
+*   **Data Processing**: Pandas, Scikit-learn
+*   **NLP Utils**: PyMuPDF (Fitz), Trafilatura
+*   **Hardware Acceleration**: Supporto automatico per CUDA (NVIDIA) e MPS (Apple Silicon).
 
 ## 📦 Installazione e Utilizzo
 
 ### Prerequisiti
 *   Python 3.9+
-*   Pip
-*   (Opzionale) GPU NVIDIA per inferenza veloce
+*   Virtual Environment (consigliato)
 
 ### Setup Rapido
 
@@ -73,12 +87,14 @@ Di seguito i risultati della valutazione quantitativa (ROUGE) condotta su un dat
     cd Faboulous-Interpretr
     ```
 
-2.  **Crea e attiva un ambiente virtuale** (Consigliato):
+2.  **Attiva l'ambiente virtuale**:
     ```bash
+    # Windows
     python -m venv .venv
-    # Windows:
     .venv\Scripts\activate
-    # Mac/Linux:
+    
+    # Unix/MacOS
+    python3 -m venv .venv
     source .venv/bin/activate
     ```
 
@@ -87,45 +103,37 @@ Di seguito i risultati della valutazione quantitativa (ROUGE) condotta su un dat
     pip install -r requirements.txt
     ```
 
-4.  **Avvia l'applicazione**:
+4.  **Avvia la Web App**:
     ```bash
     streamlit run app.py
     ```
-    L'app sarà accessibile a `http://localhost:8501`.
 
-5.  **RoBERTa LoRA Finetuning**
-    ```bash
-    python .\src\train_sentiment.py --data_path "data\raw\mrev.csv" --text_col "review_text" --label_col "sentiment" --epochs 5
-    ```
+### 🧠 Training del Modello (LoRA)
 
-### Eseguire la Valutazione
-Per riprodurre i benchmark di valutazione:
+Il progetto include una pipeline completa per il fine-tuning. Per addestrare un nuovo adapter sui propri dati:
+
+```bash
+python src/train_sentiment.py \
+  --data_path "data/processed/mental_balanced.csv" \
+  --text_col "text" \
+  --label_col "label" \
+  --epochs 5 \
+  --batch_size 16 \
+  --output_dir "models/my_custom_lora"
+```
+
+Il sistema salverà automaticamente gli adapter nella cartella specificata, pronti per essere caricati dal modulo di inferenza.
+
+## 📊 Valutazione
+
+Le performance dei modelli sono monitorate tramite metriche quantitative:
+*   **Summarization**: ROUGE-1, ROUGE-2, ROUGE-L.
+*   **Classification**: Accuracy, F1-Score (Weighted).
+
+Per eseguire la suite di valutazione:
 ```bash
 python -m src.evaluation
 ```
 
-## 🏗️ Struttura del Progetto
-
-```
-Faboulous-Interpretr/
-├── app.py                  # Entry point Streamlit (UI Orchestration)
-├── requirements.txt        # Dipendenze di progetto
-├── docs/
-│   └── Plan.md             # Documento di design architetturale (Dettaglio Accademico)
-├── src/                    # Core Logic
-│   ├── data_ingestion.py   # Adattatori per PDF, URL, OpenAPI
-│   ├── preprocessing.py    # Recursive Token Chunker & Text Cleaning
-│   ├── summarization.py    # Classe SummarizerModule con logica Map-Reduce
-│   ├── sentiment.py        # Classe SentimentAnalyzerModule
-│   ├── evaluation.py       # Script di validazione ROUGE
-│   └── utils.py            # Gestione Hardware e Logging
-└── models/                 # Cache locale dei modelli (Git ignored)
-```
-
-## 👥 Autori
-
-Progetto realizzato per il corso di NLP (Data Science).
-
 ---
-**Made with ❤️ & Transformers**
-</div>
+**Authors**: Data Science Golddiggers Team
