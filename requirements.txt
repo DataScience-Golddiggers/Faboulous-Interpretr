@@ -16,3 +16,4 @@ tabulate
 peft
 accelerate
 scikit-learn
+watchdog
