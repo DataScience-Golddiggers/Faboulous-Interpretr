@@ -104,7 +104,7 @@ class SentimentAnalyzerModule:
                 "suicidal",
             ]
             generic_sentiment = ["negative", "neutral", "positive"]
-            mental_grouped = ["depression", "Light", "Normal", "Serious"]  # vedi mapping nel notebook EDA
+            mental_grouped = ["Depression", "Light", "Normal", "Serious"]  # vedi mapping nel notebook EDA
 
             label_presets = {
                 3: generic_sentiment,
