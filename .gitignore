@@ -43,3 +43,5 @@ models/*
 # Logs and notebooks checkpoints
 .ipynb_checkpoints/
 *.log
+
+.DS_Store
