@@ -8,8 +8,6 @@ class RecursiveTokenChunker:
     """
     Divide il testo in chunk rispettando un limite massimo di caratteri (proxy per token),
     cercando di tagliare su separatori naturali (paragrafi, frasi, parole).
-    
-    È una versione leggera "pure Python" ispirata a LangChain.
     """
     def __init__(self, chunk_size: int = 2000, chunk_overlap: int = 200):
         self.chunk_size = chunk_size
