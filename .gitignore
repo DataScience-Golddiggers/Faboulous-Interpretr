@@ -44,5 +44,5 @@ models/*
 .ipynb_checkpoints/
 *.log
 
-.DS_Store
+
 .DS_Store
