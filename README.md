@@ -31,6 +31,8 @@ The project stands out for its adoption of advanced optimization techniques such
 
 The system is modular and designed to scale, with a clear separation between data ingestion, inference logic, and user interface.
 
+![arch](docs/architettura.png)
+
 ### 1. Documentation Summarizer (Map-Reduce)
 To overcome the context window limits of standard Transformers, we implemented a custom pipeline:
 *   **Agnostic Ingestion**: Specific adapters for PDF (`PyMuPDF`), Web (`Trafilatura`), and JSON/YAML files (OpenAPI).
